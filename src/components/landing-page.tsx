@@ -1,38 +1,38 @@
 "'use client'"
 
 import { Button } from "@/components/ui/button"
-import { Music, Zap, Headphones, CreditCard, Banknote } from "lucide-react"
+import { Music, Zap, Headphones, CreditCard, Banknote, Sparkles, Shield, TrendingUp } from "lucide-react"
 
 export function LandingPageComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300 via-blue-200 to-white relative overflow-hidden flex flex-col">
-      <div className="mt-8 px-4">
-        <header className="py-3 px-6 bg-white shadow-md relative z-10 rounded-full mx-auto max-w-4xl border-4 border-dashed border-blue-300">
-          <div className="flex justify-between items-center">
+      <header className="bg-white shadow-lg relative z-10 border-b-4 border-blue-300 rounded-b-[2rem]">
+        <div className="container mx-auto px-6">
+          <div className="flex justify-between items-center py-4">
             <h1 className="text-3xl font-bold text-blue-700 flex items-center">
               credit<span className="text-blue-500">JAM</span>
-              <Music className="inline-block ml-2 text-blue-600 w-6 h-6" />
+              <Music className="inline-block ml-2 text-blue-600 w-8 h-8" />
             </h1>
-            <nav className="space-x-4 flex items-center">
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold rounded-full group transition-all duration-300 ease-in-out text-lg px-4 py-2">
+            <nav className="space-x-2 flex items-center">
+              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
                 About
-                <CreditCard className="w-0 h-0 group-hover:w-5 group-hover:h-5 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold rounded-full group transition-all duration-300 ease-in-out text-lg px-4 py-2">
+              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
                 Features
-                <Music className="w-0 h-0 group-hover:w-5 group-hover:h-5 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                <Music className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold rounded-full group transition-all duration-300 ease-in-out text-lg px-4 py-2">
+              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
                 Contact
-                <Headphones className="w-0 h-0 group-hover:w-5 group-hover:h-5 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                <Headphones className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
             </nav>
           </div>
-        </header>
-      </div>
+        </div>
+      </header>
 
-      <main className="flex-grow container mx-auto px-4 relative z-10 flex items-center">
-        <div className="flex items-center justify-between">
+      <main className="flex-grow container mx-auto px-4 relative z-10 flex flex-col items-center">
+        <div className="flex items-center justify-between mt-16 mb-24">
           <div className="w-1/2 space-y-6">
             <h2 className="text-6xl font-bold text-blue-800 leading-tight">
               Find Your <span className="text-blue-500 bg-yellow-200 px-2 py-1 rounded-lg transform -rotate-2 inline-block">Perfect</span> Credit Card Match!
@@ -61,15 +61,25 @@ export function LandingPageComponent() {
             </div>
           </div>
         </div>
-      </main>
 
-      <footer className="bg-blue-200 text-blue-700 py-3 relative z-10 border-t-4 border-dashed border-blue-300">
-        <div className="container mx-auto text-center">
-          <p className="text-sm font-semibold">
-            &copy; 2023 creditJAM. All rights reserved. Keep on jammin'! 🎶
-          </p>
+        <div className="grid grid-cols-3 gap-8 w-full mb-16">
+          <div className="bg-white p-6 rounded-2xl shadow-lg border-4 border-dashed border-blue-300 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-blue-400">
+            <h3 className="text-2xl font-bold text-blue-700 mb-2">Personalized Recommendations</h3>
+            <p className="text-blue-600 mb-4">Get tailored credit card suggestions based on your unique financial profile and spending habits.</p>
+            <Sparkles className="w-12 h-12 text-blue-500 mt-auto" />
+          </div>
+          <div className="bg-white p-6 rounded-2xl shadow-lg border-4 border-dashed border-blue-300 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-blue-400">
+            <h3 className="text-2xl font-bold text-blue-700 mb-2">Secure and Confidential</h3>
+            <p className="text-blue-600 mb-4">Your data is protected with bank-level security. We never share your information without your consent.</p>
+            <Shield className="w-12 h-12 text-blue-500 mt-auto" />
+          </div>
+          <div className="bg-white p-6 rounded-2xl shadow-lg border-4 border-dashed border-blue-300 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-blue-400">
+            <h3 className="text-2xl font-bold text-blue-700 mb-2">Maximize Your Rewards</h3>
+            <p className="text-blue-600 mb-4">Discover cards that offer the best rewards for your spending patterns and lifestyle.</p>
+            <TrendingUp className="w-12 h-12 text-blue-500 mt-auto" />
+          </div>
         </div>
-      </footer>
+      </main>
     </div>
   )
 }

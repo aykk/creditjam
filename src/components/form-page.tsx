@@ -6,7 +6,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Music, Zap, Headphones, CreditCard, Banknote } from "lucide-react"
+import { Music, Headphones, CreditCard } from "lucide-react"
 
 export function FormPageComponent() {
   const [formData, setFormData] = useState({
@@ -50,33 +50,33 @@ export function FormPageComponent() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300 via-blue-200 to-white relative overflow-hidden flex flex-col">
-      <div className="mt-8 px-4">
-        <header className="py-3 px-6 bg-white shadow-md relative z-10 rounded-full mx-auto max-w-4xl border-4 border-dashed border-blue-300">
-          <div className="flex justify-between items-center">
+      <header className="bg-white shadow-lg relative z-10 border-b-4 border-blue-300 rounded-b-[2rem]">
+        <div className="container mx-auto px-6">
+          <div className="flex justify-between items-center py-4">
             <h1 className="text-3xl font-bold text-blue-700 flex items-center">
               credit<span className="text-blue-500">JAM</span>
-              <Music className="inline-block ml-2 text-blue-600 w-6 h-6" />
+              <Music className="inline-block ml-2 text-blue-600 w-8 h-8" />
             </h1>
-            <nav className="space-x-4 flex items-center">
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold rounded-full group transition-all duration-300 ease-in-out text-lg px-4 py-2">
+            <nav className="space-x-2 flex items-center">
+              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
                 About
-                <CreditCard className="w-0 h-0 group-hover:w-5 group-hover:h-5 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold rounded-full group transition-all duration-300 ease-in-out text-lg px-4 py-2">
+              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
                 Features
-                <Music className="w-0 h-0 group-hover:w-5 group-hover:h-5 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                <Music className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold rounded-full group transition-all duration-300 ease-in-out text-lg px-4 py-2">
+              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
                 Contact
-                <Headphones className="w-0 h-0 group-hover:w-5 group-hover:h-5 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                <Headphones className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
             </nav>
           </div>
-        </header>
-      </div>
+        </div>
+      </header>
 
       <main className="flex-grow container mx-auto px-4 py-8 relative z-10">
-        <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
+        <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-8 border-4 border-dashed border-blue-300">
           <h2 className="text-4xl font-bold text-blue-800 mb-6 text-center">Find Your Perfect Credit Card</h2>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
@@ -183,20 +183,12 @@ export function FormPageComponent() {
               <Label htmlFor="preferredAirlines" className="text-blue-800 font-semibold">What are your preferred airlines?</Label>
               <Input type="text" id="preferredAirlines" name="preferredAirlines" value={formData.preferredAirlines} onChange={handleInputChange} className="mt-1 text-blue-900" />
             </div>
-            <Button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white">
+            <Button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-full py-3 text-xl font-bold transition-all duration-300 hover:shadow-lg">
               Submit
             </Button>
           </form>
         </div>
       </main>
-
-      <footer className="bg-blue-200 text-blue-700 py-3 relative z-10 border-t-4 border-dashed border-blue-300">
-        <div className="container mx-auto text-center">
-          <p className="text-sm font-semibold">
-            &copy; 2023 creditJAM. All rights reserved. Keep on jammin'! 🎶
-          </p>
-        </div>
-      </footer>
     </div>
   )
 }
