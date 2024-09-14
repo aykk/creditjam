@@ -6,6 +6,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Music, Headphones, CreditCard } from "lucide-react"
 
 export function FormPageComponent() {
@@ -17,11 +18,11 @@ export function FormPageComponent() {
     isStudent: "",
     isBusinessOwner: "",
     topCategories: [],
-    subscriptionServices: "",
     interestedInHotelCards: "",
-    interestedInAirlineCards: "",
+    currentBanks: [],
     inCreditCardDebt: "",
-    preferredAirlines: "",
+    interestedInAirlineCards: "",
+    preferredAirlines: [],
   })
 
   const handleInputChange = (e) => {
@@ -29,12 +30,16 @@ export function FormPageComponent() {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleCheckboxChange = (category) => {
+  const handleSelectChange = (name, value) => {
+    setFormData((prev) => ({ ...prev, [name]: value }))
+  }
+
+  const handleCheckboxChange = (name, value) => {
     setFormData((prev) => ({
       ...prev,
-      topCategories: prev.topCategories.includes(category)
-        ? prev.topCategories.filter((c) => c !== category)
-        : [...prev.topCategories, category],
+      [name]: prev[name].includes(value)
+        ? prev[name].filter((item) => item !== value)
+        : [...prev[name], value],
     }))
   }
 
@@ -81,19 +86,35 @@ export function FormPageComponent() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <Label htmlFor="age" className="text-blue-800 font-semibold">What is your age?</Label>
-              <Input type="text" id="age" name="age" value={formData.age} onChange={handleInputChange} className="mt-1 text-blue-900" />
+              <Input type="number" id="age" name="age" value={formData.age} onChange={handleInputChange} className="mt-1 text-blue-900" />
             </div>
             <div>
               <Label htmlFor="income" className="text-blue-800 font-semibold">What is your gross annual income?</Label>
-              <Input type="text" id="income" name="income" value={formData.income} onChange={handleInputChange} className="mt-1 text-blue-900" />
+              <Input type="number" id="income" name="income" value={formData.income} onChange={handleInputChange} className="mt-1 text-blue-900" />
             </div>
             <div>
-              <Label htmlFor="creditScore" className="text-blue-800 font-semibold">What is your credit score?</Label>
-              <Input type="text" id="creditScore" name="creditScore" value={formData.creditScore} onChange={handleInputChange} className="mt-1 text-blue-900" />
+              <Label className="text-blue-800 font-semibold">What is your credit score?</Label>
+              <RadioGroup name="creditScore" onValueChange={(value) => handleRadioChange("creditScore", value)} className="mt-1">
+                {["Excellent: 800-850", "Very good: 740-799", "Good: 670-739", "Fair: 580-669", "Poor: 300-579"].map((score) => (
+                  <div key={score} className="flex items-center space-x-2">
+                    <RadioGroupItem value={score} id={score} />
+                    <Label htmlFor={score} className="text-blue-900">{score}</Label>
+                  </div>
+                ))}
+              </RadioGroup>
             </div>
             <div>
               <Label htmlFor="currentCards" className="text-blue-800 font-semibold">What credit cards do you currently have?</Label>
-              <Input type="text" id="currentCards" name="currentCards" value={formData.currentCards} onChange={handleInputChange} className="mt-1 text-blue-900" />
+              <Select name="currentCards" onValueChange={(value) => handleSelectChange("currentCards", value)}>
+                <SelectTrigger className="w-full mt-1">
+                  <SelectValue placeholder="Select a card" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="option1">Option 1</SelectItem>
+                  <SelectItem value="option2">Option 2</SelectItem>
+                  <SelectItem value="option3">Option 3</SelectItem>
+                </SelectContent>
+              </Select>
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you currently a student?</Label>
@@ -129,16 +150,12 @@ export function FormPageComponent() {
                     <Checkbox
                       id={category}
                       checked={formData.topCategories.includes(category)}
-                      onCheckedChange={() => handleCheckboxChange(category)}
+                      onCheckedChange={() => handleCheckboxChange("topCategories", category)}
                     />
                     <Label htmlFor={category} className="text-blue-900">{category}</Label>
                   </div>
                 ))}
               </div>
-            </div>
-            <div>
-              <Label htmlFor="subscriptionServices" className="text-blue-800 font-semibold">What subscription services do you use? Separate each answer with a comma.</Label>
-              <Input type="text" id="subscriptionServices" name="subscriptionServices" value={formData.subscriptionServices} onChange={handleInputChange} className="mt-1 text-blue-900" />
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you interested in hotel branded credit cards?</Label>
@@ -150,6 +167,34 @@ export function FormPageComponent() {
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="no" id="hotel-no" />
                   <Label htmlFor="hotel-no" className="text-blue-900">No</Label>
+                </div>
+              </RadioGroup>
+            </div>
+            <div>
+              <Label className="text-blue-800 font-semibold">Do you currently have any credit cards or a checking account with any of these banks?</Label>
+              <div className="grid grid-cols-2 gap-2 mt-1">
+                {["American Express", "Chase", "Capital One", "Citi", "Discover", "US Bank", "Wells Fargo", "Bank of America", "PNC Bank", "None of these"].map((bank) => (
+                  <div key={bank} className="flex items-center space-x-2">
+                    <Checkbox
+                      id={bank}
+                      checked={formData.currentBanks.includes(bank)}
+                      onCheckedChange={() => handleCheckboxChange("currentBanks", bank)}
+                    />
+                    <Label htmlFor={bank} className="text-blue-900">{bank}</Label>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <Label className="text-blue-800 font-semibold">Are you in credit card debt?</Label>
+              <RadioGroup name="inCreditCardDebt" onValueChange={(value) => handleRadioChange("inCreditCardDebt", value)} className="mt-1">
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="yes" id="debt-yes" />
+                  <Label htmlFor="debt-yes" className="text-blue-900">Yes</Label>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="no" id="debt-no" />
+                  <Label htmlFor="debt-no" className="text-blue-900">No</Label>
                 </div>
               </RadioGroup>
             </div>
@@ -167,21 +212,19 @@ export function FormPageComponent() {
               </RadioGroup>
             </div>
             <div>
-              <Label className="text-blue-800 font-semibold">Are you in credit card debt?</Label>
-              <RadioGroup name="inCreditCardDebt" onValueChange={(value) => handleRadioChange("inCreditCardDebt", value)} className="mt-1">
-                <div className="flex items-center space-x-2">
-                  <RadioGroupItem value="yes" id="debt-yes" />
-                  <Label htmlFor="debt-yes" className="text-blue-900">Yes</Label>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <RadioGroupItem value="no" id="debt-no" />
-                  <Label htmlFor="debt-no" className="text-blue-900">No</Label>
-                </div>
-              </RadioGroup>
-            </div>
-            <div>
-              <Label htmlFor="preferredAirlines" className="text-blue-800 font-semibold">What are your preferred airlines?</Label>
-              <Input type="text" id="preferredAirlines" name="preferredAirlines" value={formData.preferredAirlines} onChange={handleInputChange} className="mt-1 text-blue-900" />
+              <Label className="text-blue-800 font-semibold">If so, which of these airlines do you prefer to fly with?</Label>
+              <div className="grid grid-cols-2 gap-2 mt-1">
+                {["Delta", "United", "Southwest", "American Airlines", "Air Canada", "JetBlue", "Alaska Airlines", "Hawaiian Airlines", "Spirit", "Frontier", "Allegiant", "British Airways/Aer Lingus/Iberia Airlines", "Air France/KLM", "Emirates", "Lufthansa"].map((airline) => (
+                  <div key={airline} className="flex items-center space-x-2">
+                    <Checkbox
+                      id={airline}
+                      checked={formData.preferredAirlines.includes(airline)}
+                      onCheckedChange={() => handleCheckboxChange("preferredAirlines", airline)}
+                    />
+                    <Label htmlFor={airline} className="text-blue-900">{airline}</Label>
+                  </div>
+                ))}
+              </div>
             </div>
             <Button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-full py-3 text-xl font-bold transition-all duration-300 hover:shadow-lg">
               Submit
