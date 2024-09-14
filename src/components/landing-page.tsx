@@ -6,27 +6,6 @@ import { Music, Zap, Headphones, CreditCard, Banknote } from "lucide-react"
 export function LandingPageComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300 via-blue-200 to-white relative overflow-hidden flex flex-col">
-      {/* Giant headphone background */}
-      <div className="absolute inset-0 z-0 flex items-center justify-center">
-        <Headphones className="text-blue-300 opacity-10 w-3/4 h-3/4" />
-      </div>
-      
-      {/* Floating musical elements */}
-      {[...Array(10)].map((_, i) => (
-        <div
-          key={i}
-          className="absolute animate-float"
-          style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 5}s`,
-          }}
-        >
-          {i % 2 === 0 && <Music className="text-blue-400 opacity-50 w-8 h-8" />}
-          {i % 2 === 1 && <Headphones className="text-blue-500 opacity-50 w-10 h-10" />}
-        </div>
-      ))}
-
       <div className="mt-8 px-4">
         <header className="py-3 px-6 bg-white shadow-md relative z-10 rounded-full mx-auto max-w-4xl border-4 border-dashed border-blue-300">
           <div className="flex justify-between items-center">
