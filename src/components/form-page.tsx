@@ -106,13 +106,13 @@ export function FormPageComponent() {
             <div>
               <Label htmlFor="currentCards" className="text-blue-800 font-semibold">What credit cards do you currently have?</Label>
               <Select name="currentCards" onValueChange={(value) => handleSelectChange("currentCards", value)}>
-                <SelectTrigger className="w-full mt-1">
+                <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
                   <SelectValue placeholder="Select a card" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="option1">Option 1</SelectItem>
-                  <SelectItem value="option2">Option 2</SelectItem>
-                  <SelectItem value="option3">Option 3</SelectItem>
+                  <SelectItem value="option1" className="text-blue-900">Visa Rewards Card</SelectItem>
+                  <SelectItem value="option2" className="text-blue-900">Mastercard Cash Back</SelectItem>
+                  <SelectItem value="option3" className="text-blue-900">American Express Gold</SelectItem>
                 </SelectContent>
               </Select>
             </div>
