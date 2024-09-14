@@ -1,15 +1,18 @@
 "use client"
 
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Music, Headphones, CreditCard } from "lucide-react"
+import { Music, CreditCard, Banknote } from "lucide-react"
+import Link from "next/link"
 
 export function FormPageComponent() {
+  const router = useRouter()
   const [formData, setFormData] = useState({
     age: "",
     income: "",
@@ -19,10 +22,11 @@ export function FormPageComponent() {
     isBusinessOwner: "",
     topCategories: [],
     interestedInHotelCards: "",
+    preferredHotel: "",
     currentBanks: [],
     inCreditCardDebt: "",
     interestedInAirlineCards: "",
-    preferredAirlines: [],
+    preferredAirline: "",
   })
 
   const handleInputChange = (e) => {
@@ -51,6 +55,7 @@ export function FormPageComponent() {
     e.preventDefault()
     console.log("Form data submitted:", formData)
     // Here you would typically send the data to a server or perform further actions
+    router.push("/complete")
   }
 
   return (
@@ -58,23 +63,28 @@ export function FormPageComponent() {
       <header className="bg-white shadow-lg relative z-10 border-b-4 border-blue-300 rounded-b-[2rem]">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center py-4">
-            <h1 className="text-3xl font-bold text-blue-700 flex items-center">
+            <Link href="/" className="text-3xl font-bold text-blue-700 flex items-center">
               credit<span className="text-blue-500">JAM</span>
               <Music className="inline-block ml-2 text-blue-600 w-8 h-8" />
-            </h1>
+            </Link>
             <nav className="space-x-2 flex items-center">
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                About
-                <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Features
-                <Music className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Contact
-                <Headphones className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
+              <Link href="/about" passHref>
+                <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
+                  About
+                  <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                </Button>
+              </Link>
+              <Link href="/resources" passHref>
+                <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
+                  Resources
+                  <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                </Button>
+              </Link>
+              <Link href="/form" passHref>
+                <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-bold shadow-md transition-all duration-300 hover:shadow-lg">
+                  Get Started
+                </Button>
+              </Link>
             </nav>
           </div>
         </div>
@@ -110,9 +120,9 @@ export function FormPageComponent() {
                   <SelectValue placeholder="Select a card" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="option1" className="text-blue-900">Visa Rewards Card</SelectItem>
-                  <SelectItem value="option2" className="text-blue-900">Mastercard Cash Back</SelectItem>
-                  <SelectItem value="option3" className="text-blue-900">American Express Gold</SelectItem>
+                  <SelectItem value="visa_rewards" className="text-blue-900">Visa Rewards Card</SelectItem>
+                  <SelectItem value="mastercard_cashback" className="text-blue-900">Mastercard Cash Back</SelectItem>
+                  <SelectItem value="amex_gold" className="text-blue-900">American Express Gold</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -171,6 +181,19 @@ export function FormPageComponent() {
               </RadioGroup>
             </div>
             <div>
+              <Label htmlFor="preferredHotel" className="text-blue-800 font-semibold">If so, which of these hotels do you prefer to stay at?</Label>
+              <Select name="preferredHotel" onValueChange={(value) => handleSelectChange("preferredHotel", value)}>
+                <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
+                  <SelectValue placeholder="Select a hotel brand" />
+                </SelectTrigger>
+                <SelectContent>
+                  {["Mariott", "Hilton", "Hyatt", "IHG", "Choice Hotels", "Wyndham"].map((hotel) => (
+                    <SelectItem key={hotel} value={hotel.toLowerCase()} className="text-blue-900">{hotel}</SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+            <div>
               <Label className="text-blue-800 font-semibold">Do you currently have any credit cards or a checking account with any of these banks?</Label>
               <div className="grid grid-cols-2 gap-2 mt-1">
                 {["American Express", "Chase", "Capital One", "Citi", "Discover", "US Bank", "Wells Fargo", "Bank of America", "PNC Bank", "None of these"].map((bank) => (
@@ -212,19 +235,17 @@ export function FormPageComponent() {
               </RadioGroup>
             </div>
             <div>
-              <Label className="text-blue-800 font-semibold">If so, which of these airlines do you prefer to fly with?</Label>
-              <div className="grid grid-cols-2 gap-2 mt-1">
-                {["Delta", "United", "Southwest", "American Airlines", "Air Canada", "JetBlue", "Alaska Airlines", "Hawaiian Airlines", "Spirit", "Frontier", "Allegiant", "British Airways/Aer Lingus/Iberia Airlines", "Air France/KLM", "Emirates", "Lufthansa"].map((airline) => (
-                  <div key={airline} className="flex items-center space-x-2">
-                    <Checkbox
-                      id={airline}
-                      checked={formData.preferredAirlines.includes(airline)}
-                      onCheckedChange={() => handleCheckboxChange("preferredAirlines", airline)}
-                    />
-                    <Label htmlFor={airline} className="text-blue-900">{airline}</Label>
-                  </div>
-                ))}
-              </div>
+              <Label htmlFor="preferredAirline" className="text-blue-800 font-semibold">Which of these airlines do you prefer to fly with?</Label>
+              <Select name="preferredAirline" onValueChange={(value) => handleSelectChange("preferredAirline", value)}>
+                <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
+                  <SelectValue placeholder="Select an airline" />
+                </SelectTrigger>
+                <SelectContent>
+                  {["Delta", "United", "Southwest", "American Airlines", "Air Canada", "JetBlue", "Alaska Airlines", "Hawaiian Airlines", "Spirit", "Frontier", "Allegiant", "British Airways/Aer Lingus/Iberia Airlines", "Air France/KLM", "Emirates", "Lufthansa"].map((airline) => (
+                    <SelectItem key={airline} value={airline.toLowerCase().replace(/\s+/g, "'_'")} className="text-blue-900">{airline}</SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
             <Button type="submit" className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-full py-3 text-xl font-bold transition-all duration-300 hover:shadow-lg">
               Submit

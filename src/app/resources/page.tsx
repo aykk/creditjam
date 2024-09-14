@@ -1,7 +1,7 @@
-import { Resources } from "../../components/faq-page"
+import { FaqPage } from "../../components/faq-page"
 
 export default function Home() {
   return (
-    <Resources />
+    <FaqPage />
   );
 }

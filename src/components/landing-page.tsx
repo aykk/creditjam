@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Music, Zap, Headphones, CreditCard, Banknote, Sparkles, Shield, TrendingUp } from "lucide-react"
+import Link from "next/link"
 
 export function LandingPageComponent() {
   return (
@@ -9,23 +10,26 @@ export function LandingPageComponent() {
       <header className="bg-white shadow-lg relative z-10 border-b-4 border-blue-300 rounded-b-[2rem]">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center py-4">
-            <h1 className="text-3xl font-bold text-blue-700 flex items-center">
+            <Link href="/" className="text-3xl font-bold text-blue-700 flex items-center">
               credit<span className="text-blue-500">JAM</span>
               <Music className="inline-block ml-2 text-blue-600 w-8 h-8" />
-            </h1>
+            </Link>
             <nav className="space-x-2 flex items-center">
+              <Link href="/about" passHref>
+                <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
+                  About
+                  <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                </Button>
+              </Link>
               <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                About
-                <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                Resources
+                <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
               </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Features
-                <Music className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Contact
-                <Headphones className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
+              <Link href="/form" passHref>
+                <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-bold shadow-md transition-all duration-300 hover:shadow-lg">
+                  Get Started
+                </Button>
+              </Link>
             </nav>
           </div>
         </div>
@@ -41,14 +45,18 @@ export function LandingPageComponent() {
               Let creditJAM help you discover the ideal credit card for your lifestyle and needs. It's time to make your finances groove!
             </p>
             <div className="space-x-6">
-              <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:rotate-3">
-                Start Jamming! 🎵
-                <Zap className="ml-2 inline-block" />
-              </Button>
-              <Button className="bg-white hover:bg-blue-100 text-blue-500 px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:-rotate-3 border-2 border-blue-500">
-                Resources
-                <Banknote className="ml-2 inline-block" />
-              </Button>
+              <Link href="/form" passHref>
+                <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:rotate-3">
+                  Start Jamming! 🎵
+                  <Zap className="ml-2 inline-block" />
+                </Button>
+              </Link>
+              <Link href="/resources" passHref>
+                <Button className="bg-white hover:bg-blue-100 text-blue-500 px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:-rotate-3 border-2 border-blue-500">
+                  Resources
+                  <Banknote className="ml-2 inline-block" />
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="w-1/2 flex justify-end items-center relative">

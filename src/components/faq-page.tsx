@@ -1,7 +1,8 @@
 "'use client'"
 
 import { Button } from "@/components/ui/button"
-import { Music, Headphones, CreditCard } from "lucide-react"
+import { Music, CreditCard, Banknote } from "lucide-react"
+import Link from "next/link"
 import {
   Accordion,
   AccordionContent,
@@ -9,29 +10,34 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
-export function Resources() {
+export function FaqPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300 via-blue-200 to-white relative overflow-hidden flex flex-col">
       <header className="bg-white shadow-lg relative z-10 border-b-4 border-blue-300 rounded-b-[2rem]">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center py-4">
-            <h1 className="text-3xl font-bold text-blue-700 flex items-center">
+            <Link href="/" className="text-3xl font-bold text-blue-700 flex items-center">
               credit<span className="text-blue-500">JAM</span>
               <Music className="inline-block ml-2 text-blue-600 w-8 h-8" />
-            </h1>
+            </Link>
             <nav className="space-x-2 flex items-center">
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                About
-                <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Features
-                <Music className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Contact
-                <Headphones className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
+              <Link href="/about" passHref>
+                <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
+                  About
+                  <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                </Button>
+              </Link>
+              <Link href="/resources" passHref>
+                <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
+                  Resources
+                  <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                </Button>
+              </Link>
+              <Link href="/form" passHref>
+                <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-bold shadow-md transition-all duration-300 hover:shadow-lg">
+                  Get Started
+                </Button>
+              </Link>
             </nav>
           </div>
         </div>
