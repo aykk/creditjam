@@ -1,9 +1,12 @@
-"'use client'"
+'use client'
 
+import { useRouter } from 'next/navigation';
 import { Button } from "@/components/ui/button"
 import { Music, Zap, Star, Headphones, CreditCard, Banknote, Sparkles } from "lucide-react"
 
 export function LandingPageComponent() {
+  const router = useRouter(); // Initialize useRouter for programmatic routing
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200 relative overflow-hidden flex flex-col">
       {/* Cartoon-style background elements */}
@@ -17,7 +20,7 @@ export function LandingPageComponent() {
           }}
         ></div>
       ))}
-      
+
       {/* Music notes, headphones, and stars */}
       {[...Array(5)].map((_, i) => (
         <Music
@@ -87,7 +90,10 @@ export function LandingPageComponent() {
                 Start Jamming! 🎵
                 <Zap className="ml-2 inline-block animate-pulse" />
               </Button>
-              <Button className="bg-white hover:bg-gray-100 text-blue-500 px-6 py-3 rounded-full text-xl font-bold shadow-lg transform transition hover:scale-105 hover:-rotate-3 border-2 border-blue-500">
+              <Button
+                className="bg-white hover:bg-gray-100 text-blue-500 px-6 py-3 rounded-full text-xl font-bold shadow-lg transform transition hover:scale-105 hover:-rotate-3 border-2 border-blue-500"
+                onClick={() => router.push('/resources')} // Navigate to /resources on click
+              >
                 Resources
                 <Banknote className="ml-2 inline-block" />
               </Button>
