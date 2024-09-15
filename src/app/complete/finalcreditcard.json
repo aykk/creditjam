@@ -1794,7 +1794,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi / AAdvantage Platinum Select World Elite Mastercard",
+    "Name": "Citi AAdvantage Platinum Select World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -1937,7 +1937,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi / AAdvantage Executive World Elite Mastercard",
+    "Name": "Citi AAdvantage Executive World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Very Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -1977,7 +1977,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi / AAdvantage Business World Elite Mastercard",
+    "Name": "Citi AAdvantage Business World Elite Mastercard",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
