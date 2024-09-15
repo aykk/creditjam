@@ -138,9 +138,16 @@ export function CompletePageComponent() {
                     <div key={index} className="flex flex-col items-center">
                       <Dialog>
                         <DialogTrigger asChild>
-                          <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                            <CardContent>
-                              {/* You can add an image or icon here if desired */}
+                          <Card className="w-64 h-64 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                            <CardContent className="flex flex-col items-center">
+                              {/* Add Image on top of each box */}
+                              {card && card.Name && (
+                                <img
+                                  src={`/images/${card.Name}.png`}
+                                  alt={card.Name}
+                                  className="w-full h-auto"
+                                />
+                              )}
                             </CardContent>
                           </Card>
                         </DialogTrigger>
@@ -209,9 +216,16 @@ export function CompletePageComponent() {
                     </p>
                     <Dialog>
                       <DialogTrigger asChild>
-                        <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                          <CardContent>
-                            {/* You can add an image or icon here if desired */}
+                        <Card className="w-64 h-64 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                          <CardContent className="flex flex-col items-center">
+                            {/* Add Image on top of each box */}
+                            {card && card.Name && (
+                              <img
+                                src={`/images/${card.Name}.png`}
+                                alt={card.Name}
+                                className="w-full h-auto"
+                              />
+                            )}
                           </CardContent>
                         </Card>
                       </DialogTrigger>
