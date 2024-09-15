@@ -165,9 +165,13 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
-            <div>
+            <div className={formData.interestedInHotelCards === "no" ? "opacity-50 pointer-events-none" : ""}>
               <Label htmlFor="preferredHotel" className="text-blue-800 font-semibold">If so, which of these hotels do you prefer to stay at?</Label>
-              <Select value={formData.preferredHotel} onValueChange={(value) => handleSelectChange("preferredHotel", value)}>
+              <Select
+                value={formData.preferredHotel}
+                onValueChange={(value) => handleSelectChange("preferredHotel", value)}
+                disabled={formData.interestedInHotelCards === "no"}
+              >
                 <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
                   <SelectValue placeholder="Select a hotel brand" />
                 </SelectTrigger>
@@ -219,9 +223,13 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
-            <div>
+            <div className={formData.interestedInAirlineCards === "no" ? "opacity-50 pointer-events-none" : ""}>
               <Label htmlFor="preferredAirline" className="text-blue-800 font-semibold">If so, which of these airlines do you prefer to fly with?</Label>
-              <Select value={formData.preferredAirline} onValueChange={(value) => handleSelectChange("preferredAirline", value)}>
+              <Select
+                value={formData.preferredAirline}
+                onValueChange={(value) => handleSelectChange("preferredAirline", value)}
+                disabled={formData.interestedInAirlineCards === "no"}
+              >
                 <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
                   <SelectValue placeholder="Select an airline" />
                 </SelectTrigger>
