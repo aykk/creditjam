@@ -15,7 +15,7 @@
       "$200 airline fee credit",
       "$200 Uber Cash credit",
       "$200 hotel credit for bookings through Amex Fine Hotels & Resorts or the Hotel Collection",
-      "$189 CLEAR® credit",
+      "$189 CLEAR credit",
       "$100 Saks Fifth Avenue credit"
     ],
     "CashbackPoints": "AMEX Points",
@@ -25,7 +25,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Marriott Bonvoy Bevy™ American Express Card",
+    "Name": "Marriott Bonvoy Bevy American Express Card",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -125,7 +125,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Platinum American Express Card",
+    "Name": "Delta SkyMiles Platinum American Express Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -183,7 +183,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Gold American Express Card",
+    "Name": "Delta SkyMiles Gold American Express Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -204,7 +204,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Cash Magnet™ Credit Card",
+    "Name": "Cash Magnet Credit Card",
     "Category": "Catch All/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 19.24%-29.99%",
@@ -220,7 +220,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Marriott Bonvoy Brilliant® American Express® Card",
+    "Name": "Marriott Bonvoy Brilliant American Express Card",
     "Category": "Hotel",
     "CreditLevel": "Very Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -261,7 +261,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Blue American Express Card",
+    "Name": "Delta SkyMiles Blue American Express Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -279,7 +279,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "American Express® Gold Card",
+    "Name": "American Express Gold Card",
     "Category": "Dining/Grocery",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -304,7 +304,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Reserve American Express Card",
+    "Name": "Delta SkyMiles Reserve American Express Card",
     "Category": "Airline",
     "CreditLevel": "Very Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -323,7 +323,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Hilton Honors American Express Surpass® Card",
+    "Name": "Hilton Honors American Express Surpass Card",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -344,7 +344,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "The Business Platinum Card®",
+    "Name": "The Business Platinum Card",
     "Category": "Business/Travel",
     "CreditLevel": "Very Good-Excellent",
     "APR": "19.49%-28.49%",
@@ -357,7 +357,7 @@
     "Credits": [
       "$200 airline fee credit",
       "$400 Dell credit ($200 semi-annually)",
-      "$189 CLEAR® credit"
+      "$189 CLEAR credit"
     ],
     "CashbackPoints": "AMEX Points",
     "SignupBonus": "150,000 points after spending $20,000 in the first 3 months",
@@ -384,7 +384,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Blue Business Cash™ Card",
+    "Name": "Blue Business Cash Card",
     "Category": "Business/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "18.49%-26.49%",
@@ -401,7 +401,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Blue Business® Plus Credit Card",
+    "Name": "Blue Business Plus Credit Card",
     "Category": "Business/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "18.49%-26.49%",
@@ -418,7 +418,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "The Plum Card®",
+    "Name": "The Plum Card",
     "Category": "Business",
     "CreditLevel": "Good-Excellent",
     "APR": "N/A",
@@ -491,7 +491,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Platinum Business Card",
+    "Name": "Delta SkyMiles Platinum Business Card",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -513,7 +513,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Gold Business Card",
+    "Name": "Delta SkyMiles Gold Business Card",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -533,7 +533,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Delta SkyMiles® Reserve Business Card",
+    "Name": "Delta SkyMiles Reserve Business Card",
     "Category": "Business/Airline",
     "CreditLevel": "Very Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -572,7 +572,7 @@
   },
   {
     "Issuer": "AMEX",
-    "Name": "Marriott Bonvoy Business® Credit Card",
+    "Name": "Marriott Bonvoy Business Credit Card",
     "Category": "Business/Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -613,7 +613,7 @@
   },
   {
     "Issuer": "Capital One",
-    "Name": "Platinum Mastercard®",
+    "Name": "Platinum Mastercard",
     "Category": "Rebuilding",
     "CreditLevel": "Fair-Good",
     "APR": "29.99%",
@@ -975,7 +975,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Chase Sapphire Preferred®",
+    "Name": "Chase Sapphire Preferred",
     "Category": "Travel/Dining/Grocery",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -998,7 +998,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Chase Sapphire Reserve®",
+    "Name": "Chase Sapphire Reserve",
     "Category": "Travel/Dining",
     "CreditLevel": "Very Good-Excellent",
     "APR": "22.49%-29.49%",
@@ -1020,7 +1020,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Chase Freedom Unlimited®",
+    "Name": "Chase Freedom Unlimited",
     "Category": "Dining/Catch All/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 20.49%-29.24%",
@@ -1039,7 +1039,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Chase Freedom Flex®",
+    "Name": "Chase Freedom Flex",
     "Category": "Rotating/Dining/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 20.49%-29.24%",
@@ -1059,7 +1059,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Chase Freedom Rise®",
+    "Name": "Chase Freedom Rise",
     "Category": "Rebuilding/Catch All",
     "CreditLevel": "Fair",
     "APR": "26.99% variable",
@@ -1075,7 +1075,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Slate Edge®",
+    "Name": "Slate Edge",
     "Category": "Rebuilding/Balance Transfer",
     "CreditLevel": "Good",
     "APR": "0% intro for 18 months, then 20.49%-29.24%",
@@ -1132,7 +1132,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Southwest Rapid Rewards® Plus",
+    "Name": "Southwest Rapid Rewards Plus",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1152,7 +1152,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Southwest Rapid Rewards® Priority",
+    "Name": "Southwest Rapid Rewards Priority",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1175,7 +1175,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Southwest Rapid Rewards® Premier",
+    "Name": "Southwest Rapid Rewards Premier",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1291,7 +1291,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Aeroplan® Credit Card",
+    "Name": "Aeroplan Credit Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.74%-28.74%",
@@ -1313,7 +1313,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Marriott Bonvoy Boundless®",
+    "Name": "Marriott Bonvoy Boundless",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1356,7 +1356,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Marriott Bonvoy Bold®",
+    "Name": "Marriott Bonvoy Bold",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1376,7 +1376,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "IHG® Rewards Premier Credit Card",
+    "Name": "IHG Rewards Premier Credit Card",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1400,7 +1400,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "IHG® Rewards Traveler Credit Card",
+    "Name": "IHG Rewards Traveler Credit Card",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1421,7 +1421,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Disney® Visa® Card",
+    "Name": "Disney Visa Card",
     "Category": "Travel",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 6 months, then 19.24%-28.24%",
@@ -1438,7 +1438,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Disney® Premier Visa® Card",
+    "Name": "Disney Premier Visa Card",
     "Category": "Travel",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 6 months, then 19.24%-28.24%",
@@ -1482,7 +1482,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "British Airways Visa Signature® Card",
+    "Name": "British Airways Visa Signature Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1503,7 +1503,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Aer Lingus Visa Signature® Card",
+    "Name": "Aer Lingus Visa Signature Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1524,7 +1524,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Iberia Visa Signature® Card",
+    "Name": "Iberia Visa Signature Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1545,7 +1545,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "DoorDash Rewards Mastercard®",
+    "Name": "DoorDash Rewards Mastercard",
     "Category": "Dining",
     "CreditLevel": "Good-Excellent",
     "APR": "20.24%-28.99%",
@@ -1564,7 +1564,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Instacart Mastercard®",
+    "Name": "Instacart Mastercard",
     "Category": "Grocery",
     "CreditLevel": "Good-Excellent",
     "APR": "20.24%-28.99%",
@@ -1583,7 +1583,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Ink Business Premier® Credit Card",
+    "Name": "Ink Business Premier Credit Card",
     "Category": "Business/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "19.49%-27.49%",
@@ -1600,7 +1600,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Ink Business Unlimited® Credit Card",
+    "Name": "Ink Business Unlimited Credit Card",
     "Category": "Business/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 18.49%-24.49%",
@@ -1616,7 +1616,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Ink Business Cash® Credit Card",
+    "Name": "Ink Business Cash Credit Card",
     "Category": "Business",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 18.49%-24.49%",
@@ -1636,7 +1636,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Ink Business Preferred® Credit Card",
+    "Name": "Ink Business Preferred Credit Card",
     "Category": "Business",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-26.24%",
@@ -1703,7 +1703,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Southwest Rapid Rewards® Performance Business Credit Card",
+    "Name": "Southwest Rapid Rewards Performance Business Credit Card",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1727,7 +1727,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "Southwest Rapid Rewards® Premier Business Credit Card",
+    "Name": "Southwest Rapid Rewards Premier Business Credit Card",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1748,7 +1748,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "IHG® Rewards Premier Business Card",
+    "Name": "IHG Rewards Premier Business Card",
     "Category": "Business/Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-28.49%",
@@ -1794,7 +1794,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi® / AAdvantage® Platinum Select® World Elite Mastercard®",
+    "Name": "Citi / AAdvantage Platinum Select World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -1838,7 +1838,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi Double Cash® Credit Card",
+    "Name": "Citi Double Cash Credit Card",
     "Category": "Catch All/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 18 months, then 19.24%-29.24%",
@@ -1854,7 +1854,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi Custom Cash® Card",
+    "Name": "Citi Custom Cash Card",
     "Category": "Rotating/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 19.24%-29.24%",
@@ -1871,7 +1871,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi Rewards+® Card",
+    "Name": "Citi Rewards+ Card",
     "Category": "Grocery/Gas/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 18.74%-28.74%",
@@ -1889,7 +1889,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi Simplicity® Card",
+    "Name": "Citi Simplicity Card",
     "Category": "Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 19.24%-29.99%",
@@ -1903,7 +1903,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi Diamond Preferred® Card",
+    "Name": "Citi Diamond Preferred Card",
     "Category": "Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 18.24%-28.99%",
@@ -1917,7 +1917,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Costco Anywhere Visa® Card by Citi",
+    "Name": "Costco Anywhere Visa Card by Citi",
     "Category": "Gas/Dining/Grocery",
     "CreditLevel": "Very Good-Excellent",
     "APR": "20.49% variable",
@@ -1937,7 +1937,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi® / AAdvantage® Executive World Elite Mastercard®",
+    "Name": "Citi / AAdvantage Executive World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Very Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -1959,7 +1959,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "American Airlines AAdvantage® MileUp® Card",
+    "Name": "American Airlines AAdvantage MileUp Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -1977,7 +1977,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi® / AAdvantage Business™ World Elite Mastercard®",
+    "Name": "Citi / AAdvantage Business World Elite Mastercard",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -1998,7 +1998,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Citi® Secured Mastercard®",
+    "Name": "Citi Secured Mastercard",
     "Category": "Rebuilding",
     "CreditLevel": "Poor-Fair",
     "APR": "27.74% variable",
@@ -2012,7 +2012,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "Costco Anywhere Visa® Business Card by Citi",
+    "Name": "Costco Anywhere Visa Business Card by Citi",
     "Category": "Business/Gas/Dining/Grocery",
     "CreditLevel": "Very Good-Excellent",
     "APR": "20.49% variable",
@@ -2032,7 +2032,7 @@
   },
   {
     "Issuer": "Citi",
-    "Name": "AT&T Points Plus® Card From Citi",
+    "Name": "AT&T Points Plus Card From Citi",
     "Category": "Gas/Grocery",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%-29.24%",
@@ -2053,7 +2053,7 @@
   },
   {
     "Issuer": "Discover",
-    "Name": "Discover it® Cash Back",
+    "Name": "Discover it Cash Back",
     "Category": "Rotating/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 18.24%-28.24%",
@@ -2070,7 +2070,7 @@
   },
   {
     "Issuer": "Discover",
-    "Name": "Discover it® Student Cash Back Credit Card",
+    "Name": "Discover it Student Cash Back Credit Card",
     "Category": "Student/Rotating",
     "CreditLevel": "Fair-Good",
     "APR": "0% intro for 6 months, then 18.24%-27.24%",
@@ -2087,7 +2087,7 @@
   },
   {
     "Issuer": "Discover",
-    "Name": "Discover it® Secured Credit Card",
+    "Name": "Discover it Secured Credit Card",
     "Category": "Rebuilding",
     "CreditLevel": "Poor-Fair",
     "APR": "28.24% variable",
@@ -2104,7 +2104,7 @@
   },
   {
     "Issuer": "Discover",
-    "Name": "Discover it® Student Chrome Credit Card",
+    "Name": "Discover it Student Chrome Credit Card",
     "Category": "Student/Gas/Dining",
     "CreditLevel": "Fair-Good",
     "APR": "0% intro for 6 months, then 18.24%-27.24%",
@@ -2121,7 +2121,7 @@
   },
   {
     "Issuer": "Discover",
-    "Name": "Discover it® Miles",
+    "Name": "Discover it Miles",
     "Category": "Travel/Catch All/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 18.24%-28.24%",
@@ -2137,7 +2137,7 @@
   },
   {
     "Issuer": "Discover",
-    "Name": "Discover it® Chrome Gas & Restaurant Credit Card",
+    "Name": "Discover it Chrome Gas & Restaurant Credit Card",
     "Category": "Gas/Dining/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 18.24%-28.24%",
@@ -2154,7 +2154,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Cash+® Visa Signature® Card",
+    "Name": "U.S. Bank Cash+ Visa Signature Card",
     "Category": "Rotating/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 15 months, then 19.49%-29.74%",
@@ -2173,7 +2173,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Altitude® Go Visa Signature® Card",
+    "Name": "U.S. Bank Altitude Go Visa Signature Card",
     "Category": "Dining/Gas/Grocery",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 18.24%-29.24%",
@@ -2194,7 +2194,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Visa Platinum® Card",
+    "Name": "U.S. Bank Visa Platinum Card",
     "Category": "Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 21 months, then 18.24%-29.74%",
@@ -2208,7 +2208,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Altitude® Connect Visa Signature® Card",
+    "Name": "U.S. Bank Altitude Connect Visa Signature Card",
     "Category": "Travel/Gas",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 21.24%-29.24%",
@@ -2229,7 +2229,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Shopper Cash Rewards® Visa Signature® Card",
+    "Name": "U.S. Bank Shopper Cash Rewards Visa Signature Card",
     "Category": "Rotating",
     "CreditLevel": "Good-Excellent",
     "APR": "19.74%-29.74%",
@@ -2247,7 +2247,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Altitude® Reserve Visa Infinite® Card",
+    "Name": "U.S. Bank Altitude Reserve Visa Infinite Card",
     "Category": "Travel/Catch All",
     "CreditLevel": "Very Good-Excellent",
     "APR": "22.24%-29.24%",
@@ -2268,7 +2268,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Altitude Go® Secured Visa® Signature Card",
+    "Name": "U.S. Bank Altitude Go Secured Visa Signature Card",
     "Category": "Rebuilding/Dining/Gas/Grocery",
     "CreditLevel": "Poor-Fair",
     "APR": "29.99% variable",
@@ -2289,7 +2289,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Cash+® Secured Visa® Card",
+    "Name": "U.S. Bank Cash+ Secured Visa Card",
     "Category": "Rebuilding/Rotating",
     "CreditLevel": "Poor-Fair",
     "APR": "29.99% variable",
@@ -2307,7 +2307,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Secured Visa® Card",
+    "Name": "U.S. Bank Secured Visa Card",
     "Category": "Rebuilding",
     "CreditLevel": "Poor-Fair",
     "APR": "29.24% variable",
@@ -2321,7 +2321,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Business Altitude™ Power World Elite Mastercard®",
+    "Name": "U.S. Bank Business Altitude Power World Elite Mastercard",
     "Category": "Business/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "19.99%-26.99%",
@@ -2338,7 +2338,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Business Altitude™ Connect World Elite Mastercard®",
+    "Name": "U.S. Bank Business Altitude Connect World Elite Mastercard",
     "Category": "Business/Travel/Gas",
     "CreditLevel": "Good-Excellent",
     "APR": "19.99%-26.99%",
@@ -2359,7 +2359,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "U.S. Bank Triple Cash Rewards Visa® Business Card",
+    "Name": "U.S. Bank Triple Cash Rewards Visa Business Card",
     "Category": "Business/Gas/Dining",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 12 months, then 18.99%-27.99%",
@@ -2378,7 +2378,7 @@
   },
   {
     "Issuer": "US Bank",
-    "Name": "Business Leverage® Visa Signature® Card",
+    "Name": "Business Leverage Visa Signature Card",
     "Category": "Business/Rotating",
     "CreditLevel": "Good-Excellent",
     "APR": "19.66%-26.99%",
@@ -2410,7 +2410,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Wells Fargo Active Cash® Credit Card",
+    "Name": "Wells Fargo Active Cash Credit Card",
     "Category": "Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 12 months, then 20.24%, 25.24%, or 29.99%",
@@ -2462,7 +2462,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Wells Fargo Reflect® Card",
+    "Name": "Wells Fargo Reflect Card",
     "Category": "Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 21 months, then 18.24%, 24.74%, or 29.99%",
@@ -2493,7 +2493,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Bilt Mastercard®",
+    "Name": "Bilt Mastercard",
     "Category": "Rent/Dining/Travel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.49%, 24.49%, or 29.49%",
@@ -2515,7 +2515,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "One Key™ Card",
+    "Name": "One Key Card",
     "Category": "Travel/Gas/Grocery/Dining",
     "CreditLevel": "Good-Excellent",
     "APR": "20.24%, 25.24%, or 29.99%",
@@ -2534,7 +2534,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "One Key+™",
+    "Name": "One Key+",
     "Category": "Travel/Gas/Grocery/Dining/Catch All",
     "CreditLevel": "Very Good-Excellent",
     "APR": "20.24%, 25.24%, or 29.99%",
@@ -2556,7 +2556,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Choice Privileges® Mastercard®",
+    "Name": "Choice Privileges Mastercard",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%, 25.24%, or 29.99%",
@@ -2574,7 +2574,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Choice Privileges® Select Mastercard®",
+    "Name": "Choice Privileges Select Mastercard",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%, 25.24%, or 29.99%",
@@ -2611,7 +2611,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Customized Cash Rewards Credit Card",
+    "Name": "Bank of America Customized Cash Rewards Credit Card",
     "Category": "Rotating",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for first 15 months, then 19.24%-29.24%",
@@ -2629,7 +2629,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Unlimited Cash Rewards Credit Card",
+    "Name": "Bank of America Unlimited Cash Rewards Credit Card",
     "Category": "Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for first 15 months, then 19.24%-29.24%",
@@ -2645,7 +2645,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "BankAmericard® Credit Card",
+    "Name": "BankAmericard Credit Card",
     "Category": "N/A",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for first 18 months, then 16.24%-26.24%",
@@ -2659,7 +2659,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Travel Rewards Credit Card",
+    "Name": "Bank of America Travel Rewards Credit Card",
     "Category": "Travel/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for first 15 months, then 19.24%-29.24%",
@@ -2675,7 +2675,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Premium Rewards® Credit Card",
+    "Name": "Bank of America Premium Rewards Credit Card",
     "Category": "Travel/Catch All",
     "CreditLevel": "Very Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -2695,7 +2695,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Premium Rewards® Elite Credit Card",
+    "Name": "Bank of America Premium Rewards Elite Credit Card",
     "Category": "Travel/Catch All",
     "CreditLevel": "Very Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -2716,7 +2716,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Customized Cash Rewards Credit Card for Students",
+    "Name": "Bank of America Customized Cash Rewards Credit Card for Students",
     "Category": "Student/Rotating",
     "CreditLevel": "Fair-Good",
     "APR": "0% for first 15 months, then 19.24%-29.24%",
@@ -2734,7 +2734,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Unlimited Cash Rewards Credit Card for Students",
+    "Name": "Bank of America Unlimited Cash Rewards Credit Card for Students",
     "Category": "Student/Catch All",
     "CreditLevel": "Fair-Good",
     "APR": "0% for first 15 months, then 19.24%-29.24%",
@@ -2750,7 +2750,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "BankAmericard® Credit Card for Students",
+    "Name": "BankAmericard Credit Card for Students",
     "Category": "Student/Rebuilding",
     "CreditLevel": "Fair-Good",
     "APR": "0% for first 18 months, then 16.24%-26.24%",
@@ -2764,7 +2764,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Travel Rewards Credit Card for Students",
+    "Name": "Bank of America Travel Rewards Credit Card for Students",
     "Category": "Student/Travel/Catch All",
     "CreditLevel": "Fair-Good",
     "APR": "0% for first 15 months, then 19.24%-29.24%",
@@ -2780,7 +2780,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Customized Cash Rewards Secured Credit Card",
+    "Name": "Bank of America Customized Cash Rewards Secured Credit Card",
     "Category": "Rebuilding/Rotating",
     "CreditLevel": "Poor-Fair",
     "APR": "29.24% variable",
@@ -2798,7 +2798,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Unlimited Cash Rewards Secured Credit Card",
+    "Name": "Bank of America Unlimited Cash Rewards Secured Credit Card",
     "Category": "Rebuilding/Catch All",
     "CreditLevel": "Poor-Fair",
     "APR": "29.24% variable",
@@ -2814,7 +2814,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "BankAmericard® Secured Credit Card",
+    "Name": "BankAmericard Secured Credit Card",
     "Category": "Rebuilding",
     "CreditLevel": "Poor-Fair",
     "APR": "26.24% variable",
@@ -2828,7 +2828,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Bank of America® Travel Rewards Secured Credit Card",
+    "Name": "Bank of America Travel Rewards Secured Credit Card",
     "Category": "Rebuilding/Travel/Catch All",
     "CreditLevel": "Poor-Fair",
     "APR": "29.24% variable",
@@ -2844,7 +2844,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Alaska Airlines Visa Signature® Credit Card",
+    "Name": "Alaska Airlines Visa Signature Credit Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -2864,7 +2864,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Free Spirit® Travel More World Elite Mastercard®",
+    "Name": "Free Spirit Travel More World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -2884,7 +2884,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Allways Rewards Visa® Credit Card",
+    "Name": "Allways Rewards Visa Credit Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -2902,7 +2902,7 @@
   },
   {
     "Issuer": "Bank of America",
-    "Name": "Air France KLM World Elite Mastercard®",
+    "Name": "Air France KLM World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.24%",
@@ -2921,7 +2921,7 @@
   },
   {
     "Issuer": "PNC Bank",
-    "Name": "PNC Cash Unlimited® Visa Signature® Credit Card",
+    "Name": "PNC Cash Unlimited Visa Signature Credit Card",
     "Category": "Catch All/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 15 months, then 20.24%-30.24%",
@@ -2937,7 +2937,7 @@
   },
   {
     "Issuer": "PNC Bank",
-    "Name": "PNC Cash Rewards® Visa® Credit Card",
+    "Name": "PNC Cash Rewards Visa Credit Card",
     "Category": "Gas/Dining/Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 15 months, then 20.24%-30.24%",
@@ -2956,7 +2956,7 @@
   },
   {
     "Issuer": "PNC Bank",
-    "Name": "PNC Core® Visa® Credit Card",
+    "Name": "PNC Core Visa Credit Card",
     "Category": "Balance Transfer",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 18 months, then 19.24%-30.24%",
@@ -2970,7 +2970,7 @@
   },
   {
     "Issuer": "Synchrony",
-    "Name": "PayPal Cashback Mastercard®",
+    "Name": "PayPal Cashback Mastercard",
     "Category": "Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "20.24%, 31.99%, or 34.99%",
@@ -2987,7 +2987,7 @@
   },
   {
     "Issuer": "Synchrony",
-    "Name": "Venmo Visa® Credit Card",
+    "Name": "Venmo Visa Credit Card",
     "Category": "Rotating",
     "CreditLevel": "Good-Excellent",
     "APR": "20.49%, 29.49%, or 32.49%",
@@ -3005,7 +3005,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Wyndham Rewards Earner® Business Card",
+    "Name": "Wyndham Rewards Earner Business Card",
     "Category": "Business/Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3046,7 +3046,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Wyndham Rewards Earner® Card",
+    "Name": "Wyndham Rewards Earner Card",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -3087,7 +3087,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Wyndham Rewards Earner® Plus Card",
+    "Name": "Wyndham Rewards Earner Plus Card",
     "Category": "Hotel",
     "CreditLevel": "Good-Excellent",
     "APR": "20.99%-29.99%",
@@ -3107,7 +3107,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Hawaiian Airlines® World Elite Business Mastercard®",
+    "Name": "Hawaiian Airlines World Elite Business Mastercard",
     "Category": "Business/Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3128,7 +3128,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "AAdvantage® Aviator® Red World Elite Mastercard®",
+    "Name": "AAdvantage Aviator Red World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3166,7 +3166,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Hawaiian Airlines® World Elite Mastercard®",
+    "Name": "Hawaiian Airlines World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3186,7 +3186,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Emirates Skywards Rewards World Elite Mastercard®",
+    "Name": "Emirates Skywards Rewards World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3204,7 +3204,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Miles & More® World Elite Mastercard®",
+    "Name": "Miles & More World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3223,7 +3223,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "Emirates Skywards Premium World Elite Mastercard®",
+    "Name": "Emirates Skywards Premium World Elite Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
@@ -3244,7 +3244,7 @@
   },
   {
     "Issuer": "Barclays",
-    "Name": "FRONTIER Airlines World Mastercard®",
+    "Name": "FRONTIER Airlines World Mastercard",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%-29.99%",
