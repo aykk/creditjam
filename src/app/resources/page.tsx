@@ -1,7 +1,7 @@
-import { FaqPage } from "../../components/faq-page"
+import { ResourcesPageComponent } from "../../components/resources-page"
 
 export default function Home() {
   return (
-    <FaqPage />
+    <ResourcesPageComponent />
   );
 }

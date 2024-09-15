@@ -1,7 +1,7 @@
-import { FormPageComponent } from "../../components/form-page";
+import { CompletePageComponent } from "../../components/complete-page";
 
 export default function Home() {
   return (
-    <FormPageComponent />
+    <CompletePageComponent />
   );
 }
