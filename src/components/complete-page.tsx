@@ -21,7 +21,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import Link from "next/link";
-import { finalCards } from "/Users/jungmin/Documents/GitHub/creditjam/src/app/complete/algorithm.js"; // Import finalCards
+import { finalCards } from "../../src/app/complete/algorithm"; // Import finalCards
 
 // Mock card information (unchanged)
 const cardInfo = {

@@ -1,6 +1,8 @@
+// src/components/FormPageComponent.tsx
+
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, ChangeEvent, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { useFormData } from "../contexts/FormDataContext";
 import { Button } from "@/components/ui/button";
@@ -18,11 +20,28 @@ import {
 import { Music, CreditCard, Banknote } from "lucide-react";
 import Link from "next/link";
 
+interface FormData {
+  age: string;
+  income: string;
+  creditScore: string;
+  isStudent: string;
+  isBusinessOwner: string;
+  topCategories: string[];
+  interestedInHotelCards: string;
+  preferredHotel: string;
+  currentBanks: string[];
+  inCreditCardDebt: string;
+  interestedInAirlineCards: string;
+  preferredAirline: string;
+}
+
+type FormDataKey = keyof FormData;
+
 export function FormPageComponent() {
   const router = useRouter();
   const { setFormData } = useFormData(); // Get setFormData from context
 
-  const [localFormData, setLocalFormData] = useState({
+  const [localFormData, setLocalFormData] = useState<FormData>({
     age: "",
     income: "",
     creditScore: "",
@@ -37,29 +56,52 @@ export function FormPageComponent() {
     preferredAirline: "",
   });
 
-  const handleInputChange = useCallback((e) => {
-    const { name, value } = e.target;
-    setLocalFormData((prev) => ({ ...prev, [name]: value }));
-  }, []);
+  const handleInputChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target;
+      setLocalFormData((prev) => ({
+        ...prev,
+        [name as FormDataKey]: value,
+      }));
+    },
+    []
+  );
 
-  const handleSelectChange = useCallback((name, value) => {
-    setLocalFormData((prev) => ({ ...prev, [name]: value }));
-  }, []);
+  const handleSelectChange = useCallback(
+    (name: FormDataKey, value: string) => {
+      setLocalFormData((prev) => ({ ...prev, [name]: value }));
+    },
+    []
+  );
 
-  const handleCheckboxChange = useCallback((name, value) => {
-    setLocalFormData((prev) => ({
-      ...prev,
-      [name]: prev[name].includes(value)
-        ? prev[name].filter((item) => item !== value)
-        : [...prev[name], value],
-    }));
-  }, []);
+  const handleCheckboxChange = useCallback(
+    (name: FormDataKey, value: string, checked: boolean) => {
+      setLocalFormData((prev) => {
+        const prevValue = prev[name];
+        if (Array.isArray(prevValue)) {
+          if (checked) {
+            return { ...prev, [name]: [...prevValue, value] };
+          } else {
+            return {
+              ...prev,
+              [name]: prevValue.filter((item) => item !== value),
+            };
+          }
+        }
+        return prev;
+      });
+    },
+    []
+  );
 
-  const handleRadioChange = useCallback((name, value) => {
-    setLocalFormData((prev) => ({ ...prev, [name]: value }));
-  }, []);
+  const handleRadioChange = useCallback(
+    (name: FormDataKey, value: string) => {
+      setLocalFormData((prev) => ({ ...prev, [name]: value }));
+    },
+    []
+  );
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form data submitted:", localFormData);
     setFormData(localFormData); // Update the context with the form data
@@ -113,6 +155,7 @@ export function FormPageComponent() {
             Find Your Perfect Credit Card
           </h2>
           <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Age Input */}
             <div>
               <Label htmlFor="age" className="text-blue-800 font-semibold">
                 What is your age?
@@ -126,6 +169,8 @@ export function FormPageComponent() {
                 className="mt-1 text-blue-900"
               />
             </div>
+
+            {/* Income Input */}
             <div>
               <Label htmlFor="income" className="text-blue-800 font-semibold">
                 What is your gross annual income?
@@ -139,6 +184,8 @@ export function FormPageComponent() {
                 className="mt-1 text-blue-900"
               />
             </div>
+
+            {/* Credit Score Radio Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 What is your credit score?
@@ -166,6 +213,8 @@ export function FormPageComponent() {
                 ))}
               </RadioGroup>
             </div>
+
+            {/* Student Status Radio Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 Are you currently a student?
@@ -191,6 +240,8 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
+
+            {/* Business Owner Radio Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 Do you own a business/Are you interested in business credit
@@ -217,6 +268,8 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
+
+            {/* Top Categories Checkbox Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 What are the top 3 categories that you spend the most on?
@@ -235,8 +288,12 @@ export function FormPageComponent() {
                     <Checkbox
                       id={category}
                       checked={localFormData.topCategories.includes(category)}
-                      onCheckedChange={() =>
-                        handleCheckboxChange("topCategories", category)
+                      onCheckedChange={(checked) =>
+                        handleCheckboxChange(
+                          "topCategories",
+                          category,
+                          checked === true
+                        )
                       }
                     />
                     <Label htmlFor={category} className="text-blue-900">
@@ -246,6 +303,8 @@ export function FormPageComponent() {
                 ))}
               </div>
             </div>
+
+            {/* Interested in Hotel Cards Radio Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 Are you interested in hotel branded credit cards?
@@ -271,6 +330,8 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
+
+            {/* Preferred Hotel Select */}
             <div
               className={
                 localFormData.interestedInHotelCards === "no"
@@ -314,6 +375,8 @@ export function FormPageComponent() {
                 </SelectContent>
               </Select>
             </div>
+
+            {/* Current Banks Checkbox Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 Do you currently have any credit cards or a checking account
@@ -336,8 +399,12 @@ export function FormPageComponent() {
                     <Checkbox
                       id={bank}
                       checked={localFormData.currentBanks.includes(bank)}
-                      onCheckedChange={() =>
-                        handleCheckboxChange("currentBanks", bank)
+                      onCheckedChange={(checked) =>
+                        handleCheckboxChange(
+                          "currentBanks",
+                          bank,
+                          checked === true
+                        )
                       }
                     />
                     <Label htmlFor={bank} className="text-blue-900">
@@ -347,6 +414,8 @@ export function FormPageComponent() {
                 ))}
               </div>
             </div>
+
+            {/* In Credit Card Debt Radio Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 Are you in credit card debt?
@@ -372,6 +441,8 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
+
+            {/* Interested in Airline Cards Radio Group */}
             <div>
               <Label className="text-blue-800 font-semibold">
                 Are you interested in airline branded credit cards?
@@ -397,6 +468,8 @@ export function FormPageComponent() {
                 </div>
               </RadioGroup>
             </div>
+
+            {/* Preferred Airline Select */}
             <div
               className={
                 localFormData.interestedInAirlineCards === "no"
@@ -452,6 +525,8 @@ export function FormPageComponent() {
                 </SelectContent>
               </Select>
             </div>
+
+            {/* Submit Button */}
             <Button
               type="submit"
               className="w-full bg-blue-500 hover:bg-blue-600 text-white rounded-full py-3 text-xl font-bold transition-all duration-300 hover:shadow-lg"
