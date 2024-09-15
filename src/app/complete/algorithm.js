@@ -76,12 +76,18 @@ function calculateScores(cards, preferences) {
     if (preferences.isStudent === "Yes" && cardName.includes("student")) score += 15;
     if (preferences.isBusinessOwner === "Yes" && cardCategories.includes("business")) score += 10;
     if (preferences.inCreditCardDebt === "Yes" && cardCategories.includes("balance")) score += 10;
-    if (preferences.interestedInHotelCards === "Yes" && cardCategories.includes("hotel")) score += 5;
-    if (preferences.interestedInAirlineCards === "Yes" && cardCategories.includes("airline")) score += 5;
+    if (preferences.interestedInHotelCards === "Yes" && cardCategories.includes("hotel")) score += 10;
+    if (preferences.interestedInAirlineCards === "Yes" && cardCategories.includes("airline")) score += 10;
 
     if (preferences.preferredAirline) {
       if (cardName.includes(preferences.preferredAirline.toLowerCase())) {
-        score += 10;
+        score += 500;
+      }
+    }
+
+    if (preferences.preferredHotel) {
+      if (cardName.includes(preferences.preferredHotel.toLowerCase())) {
+        score += 500;
       }
     }
 
