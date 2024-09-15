@@ -120,7 +120,7 @@ export function CompletePageComponent() {
 
           <div className="mb-12">
             <h3 className="text-2xl font-semibold text-blue-700 mb-4">
-               Top Cards for {selectedCategories[currentCategoryIndex]}:
+              Top Cards for {selectedCategories[currentCategoryIndex]}:
             </h3>
             <div className="flex items-center justify-between">
               <Button
@@ -203,6 +203,10 @@ export function CompletePageComponent() {
                 const card = recommendedCards[index] || null;
                 return (
                   <div key={type} className="flex flex-col items-center">
+                    {/* Label above the box */}
+                    <p className="mb-2 text-lg font-semibold text-blue-700">
+                      {type}
+                    </p>
                     <Dialog>
                       <DialogTrigger asChild>
                         <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
