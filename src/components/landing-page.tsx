@@ -55,7 +55,7 @@ export function LandingPageComponent() {
               </Link>
               <Link href="/guide" passHref>
                 <Button className="bg-white hover:bg-blue-100 text-blue-500 px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:-rotate-3 border-2 border-blue-500">
-                  Guide
+                  Credit Guide
                   <Banknote className="ml-2 inline-block" />
                 </Button>
               </Link>
