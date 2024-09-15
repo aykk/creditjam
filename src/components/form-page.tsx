@@ -147,7 +147,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">What is your credit score?</Label>
-              <RadioGroup name="creditScore" onValueChange={(value) => handleRadioChange("creditScore", value)} className="mt-1">
+              <RadioGroup value={formData.creditScore} onValueChange={(value) => handleRadioChange("creditScore", value)} className="mt-1">
                 {["Excellent: 800-850", "Very good: 740-799", "Good: 670-739", "Fair: 580-669", "Poor: 300-579"].map((score) => (
                   <div key={score} className="flex items-center space-x-2">
                     <RadioGroupItem value={score} id={score} />
@@ -208,7 +208,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you currently a student?</Label>
-              <RadioGroup name="isStudent" onValueChange={(value) => handleRadioChange("isStudent", value)} className="mt-1">
+              <RadioGroup value={formData.isStudent} onValueChange={(value) => handleRadioChange("isStudent", value)} className="mt-1">
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="yes" id="student-yes" />
                   <Label htmlFor="student-yes" className="text-blue-900">Yes</Label>
@@ -221,7 +221,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Do you own a business/Are you interested in business credit cards?</Label>
-              <RadioGroup name="isBusinessOwner" onValueChange={(value) => handleRadioChange("isBusinessOwner", value)} className="mt-1">
+              <RadioGroup value={formData.isBusinessOwner} onValueChange={(value) => handleRadioChange("isBusinessOwner", value)} className="mt-1">
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="yes" id="business-yes" />
                   <Label htmlFor="business-yes" className="text-blue-900">Yes</Label>
@@ -249,7 +249,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you interested in hotel branded credit cards?</Label>
-              <RadioGroup name="interestedInHotelCards" onValueChange={(value) => handleRadioChange("interestedInHotelCards", value)} className="mt-1">
+              <RadioGroup value={formData.interestedInHotelCards} onValueChange={(value) => handleRadioChange("interestedInHotelCards", value)} className="mt-1">
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="yes" id="hotel-yes" />
                   <Label htmlFor="hotel-yes" className="text-blue-900">Yes</Label>
@@ -262,7 +262,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label htmlFor="preferredHotel" className="text-blue-800 font-semibold">If so, which of these hotels do you prefer to stay at?</Label>
-              <Select name="preferredHotel" onValueChange={(value) => handleSelectChange("preferredHotel", value)}>
+              <Select value={formData.preferredHotel} onValueChange={(value) => handleSelectChange("preferredHotel", value)}>
                 <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
                   <SelectValue placeholder="Select a hotel brand" />
                 </SelectTrigger>
@@ -290,7 +290,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you in credit card debt?</Label>
-              <RadioGroup name="inCreditCardDebt" onValueChange={(value) => handleRadioChange("inCreditCardDebt", value)} className="mt-1">
+              <RadioGroup value={formData.inCreditCardDebt} onValueChange={(value) => handleRadioChange("inCreditCardDebt", value)} className="mt-1">
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="yes" id="debt-yes" />
                   <Label htmlFor="debt-yes" className="text-blue-900">Yes</Label>
@@ -303,7 +303,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you interested in airline branded credit cards?</Label>
-              <RadioGroup name="interestedInAirlineCards" onValueChange={(value) => handleRadioChange("interestedInAirlineCards", value)} className="mt-1">
+              <RadioGroup value={formData.interestedInAirlineCards} onValueChange={(value) => handleRadioChange("interestedInAirlineCards", value)} className="mt-1">
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="yes" id="airline-yes" />
                   <Label htmlFor="airline-yes" className="text-blue-900">Yes</Label>
@@ -316,7 +316,7 @@ export function FormPageComponent() {
             </div>
             <div>
               <Label htmlFor="preferredAirline" className="text-blue-800 font-semibold">If so, which of these airlines do you prefer to fly with?</Label>
-              <Select name="preferredAirline" onValueChange={(value) => handleSelectChange("preferredAirline", value)}>
+              <Select value={formData.preferredAirline} onValueChange={(value) => handleSelectChange("preferredAirline", value)}>
                 <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
                   <SelectValue placeholder="Select an airline" />
                 </SelectTrigger>
