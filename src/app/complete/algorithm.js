@@ -190,25 +190,43 @@ function finalCards(userInput) {
     const card1 = sortByCategoryAndTier(recommendedCards, category, 0 + index);
     const card2 = sortByCategoryAndTier(recommendedCards, category, 1 + index);
     const card3 = sortByCategoryAndTier(recommendedCards, category, 2 + index);
-    if (card1) returnCard.push(card1);
-    if (card2) returnCard.push(card2);
-    if (card3) returnCard.push(card3);
+    if (card1 === null){
+      returnCard.push("N/A");
+    }else{
+      returnCard.push(card1);
+    }
+
+    if (card2 === null){
+      returnCard.push("N/A");
+    }else{
+      returnCard.push(card2);
+    }
+
+    if (card3 === null){
+      returnCard.push("N/A");
+    }else{
+      returnCard.push(card3);
+    }
   }
 
   const cardM = sortByCategoryAndTier(recommendedCards, "Catch All", 1);
   if (cardM) returnCard.push(cardM);
 
-  if (userInput.interestedInHotelCards === "Yes") {
+  if (userInput.interestedInHotelCards === "yes") {
     const card = sortByCategoryAndTier(recommendedCards, "Hotel", 1);
     if (card) returnCard.push(card);
+  }else{
+    returnCard.push("N/A");
   }
-  if (userInput.interestedInAirlineCards === "Yes") {
+  if (userInput.interestedInAirlineCards === "yes") {
     const card = sortByCategoryAndTier(recommendedCards, "Airline", 1);
     if (card) returnCard.push(card);
+  }
+  else{
+    returnCard.push("N/A");
   }
 
   return returnCard;
 }
 
 module.exports = { finalCards };
-console.log(finalCards);

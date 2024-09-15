@@ -1,3 +1,5 @@
+// src/components/complete-page.tsx
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -131,14 +133,14 @@ export function CompletePageComponent() {
               <div className="flex space-x-4">
                 {[0, 1, 2].map((index) => {
                   const cardIndex = currentCategoryIndex * 3 + index;
-                  const card = recommendedCards[cardIndex];
+                  const card = recommendedCards[cardIndex] || null;
                   return (
                     <Dialog key={index}>
                       <DialogTrigger asChild>
                         <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                           <CardContent>
                             <p className="text-lg font-semibold text-blue-600">
-                              {card ? card.Name : `Card ${index + 1}`}
+                              {card && card.Name ? card.Name : "N/A"}
                             </p>
                           </CardContent>
                         </Card>
@@ -146,13 +148,13 @@ export function CompletePageComponent() {
                       <DialogContent className="bg-white">
                         <DialogHeader>
                           <DialogTitle className="text-2xl font-bold text-blue-800">
-                            {card ? card.Name : `Card ${index + 1} Details`}
+                            {card && card.Name ? card.Name : "N/A"}
                           </DialogTitle>
                         </DialogHeader>
                         <p className="text-blue-900">
-                          {card
-                            ? card.Description || "No description available."
-                            : `This is a great card for ${selectedCategories[currentCategoryIndex]}. It offers excellent rewards and benefits tailored to your spending habits.`}
+                          {card && card.Description
+                            ? card.Description
+                            : "No description available."}
                         </p>
                       </DialogContent>
                     </Dialog>
@@ -175,34 +177,36 @@ export function CompletePageComponent() {
             </h3>
             <div className="flex justify-between space-x-4">
               {[
-                { type: "Catch-All Card", index: 9 },
-                { type: "Hotel Card", index: 10 },
-                { type: "Airline Card", index: 11 },
+                { type: "Catch-All", index: 9 },
+                { type: "Hotel", index: 10 },
+                { type: "Airline", index: 11 },
               ].map(({ type, index }) => {
-                const card = recommendedCards[index];
+                const card = recommendedCards[index] || null;
                 return (
                   <div key={type} className="flex flex-col items-center">
-                    <p className="text-lg font-semibold text-blue-600 mb-2">
-                      {card ? card.Name : type}
-                    </p>
+                    <h4 className="text-lg font-semibold text-blue-600 mb-2">
+                      {type}
+                    </h4>
                     <Dialog>
                       <DialogTrigger asChild>
                         <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                           <CardContent>
-                            <CreditCard className="h-16 w-16 text-blue-500" />
+                            <p className="text-lg font-semibold text-blue-600">
+                              {card && card.Name ? card.Name : "N/A"}
+                            </p>
                           </CardContent>
                         </Card>
                       </DialogTrigger>
                       <DialogContent className="bg-white">
                         <DialogHeader>
                           <DialogTitle className="text-2xl font-bold text-blue-800">
-                            {card ? card.Name : type}
+                            {card && card.Name ? card.Name : "N/A"}
                           </DialogTitle>
                         </DialogHeader>
                         <p className="text-blue-900">
-                          {card
-                            ? card.Description || "No description available."
-                            : cardInfo[type]}
+                          {card && card.Description
+                            ? card.Description
+                            : "No description available."}
                         </p>
                       </DialogContent>
                     </Dialog>
