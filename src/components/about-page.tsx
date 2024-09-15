@@ -65,7 +65,7 @@ export function AboutPageComponent() {
             <div className="flex items-start space-x-4">
               <TrendingUp className="w-12 h-12 text-blue-500 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold text-blue-700 mb-2">Leveraging Credit Cards Responsibly</h3>
+                <h3 className="text-2xl font-semibold text-blue-700 mb-2">Leverage credit cards responsibly</h3>
                 <p className="text-blue-600">
                   We believe credit cards have the potential to be very powerful financial tools, yet unfortunately credit card debt is one of the most common sources of debt in America. Our mission is to change that, and provide people with the knowledge and resources necessary to leverage credit cards into a valuable asset in their financial toolkit, regardless of their background.
                 </p>
