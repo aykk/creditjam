@@ -152,7 +152,7 @@ export function FormPageComponent() {
       <main className="flex-grow container mx-auto px-4 py-8 relative z-10">
         <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-8 border-4 border-dashed border-blue-300">
           <h2 className="text-4xl font-bold text-blue-800 mb-6 text-center">
-            Find Your Perfect Credit Card
+            Let us get to know you!
           </h2>
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Age Input */}

@@ -154,7 +154,7 @@ const topics = [
   },
   {
     id: "end",
-    title: "Smart Credit User",
+    title: "Being Smart with Credit",
     icon: <CheckCircle className="w-12 h-12 text-green-500" />,
     content:
       "Being a smart credit user involves understanding your financial situation, choosing the right products, using them responsibly, and regularly monitoring your credit report and score.",
