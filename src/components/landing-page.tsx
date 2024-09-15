@@ -21,11 +21,11 @@ export function LandingPageComponent() {
                   <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
                 </Button>
               </Link>
-              <Link href="/resources" passHref>
-              <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                Resources
-                <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
-              </Button>
+              <Link href="/guide" passHref>
+                <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
+                  Guide
+                  <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
+                </Button>
               </Link>
               <Link href="/form" passHref>
                 <Button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full text-lg font-bold shadow-md transition-all duration-300 hover:shadow-lg">
@@ -53,7 +53,7 @@ export function LandingPageComponent() {
                   <Zap className="ml-2 inline-block" />
                 </Button>
               </Link>
-              <Link href="/resources" passHref>
+              <Link href="/guide" passHref>
                 <Button className="bg-white hover:bg-blue-100 text-blue-500 px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:-rotate-3 border-2 border-blue-500">
                   Resources
                   <Banknote className="ml-2 inline-block" />

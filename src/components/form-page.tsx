@@ -117,9 +117,9 @@ export function FormPageComponent() {
                   <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
                 </Button>
               </Link>
-              <Link href="/resources" passHref>
+              <Link href="/guide" passHref>
                 <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                  Resources
+                  Guide
                   <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
                 </Button>
               </Link>

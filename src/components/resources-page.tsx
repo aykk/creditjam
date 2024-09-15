@@ -209,7 +209,7 @@ export function ResourcesPageComponent() {
                 <div key={topic.id} className="inline-block">
                   <div 
                     className={`w-64 h-80 bg-white rounded-2xl shadow-lg cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 ${
-                      completedTopics.has(topic.id) ? "'border-green-500'" : "'border-blue-300'"
+                      completedTopics.has(topic.id) ? "'border-green-500'" : "'border-blue-500'"
                     } flex flex-col justify-between p-6`}
                     onClick={() => handleTopicClick(topic.id)}
                   >
@@ -223,7 +223,7 @@ export function ResourcesPageComponent() {
                     </div>
                   </div>
                   {index < topics.length - 1 && (
-                    <div className="w-8 h-1 bg-blue-300 mx-auto mt-4"></div>
+                    <div className="w-8 h-1 bg-blue-500 mx-auto mt-4"></div>
                   )}
                 </div>
               ))}
