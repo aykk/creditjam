@@ -724,11 +724,11 @@ video {
 .h-4 {
   height: 1rem;
 }
-.h-40 {
-  height: 10rem;
-}
 .h-6 {
   height: 1.5rem;
+}
+.h-64 {
+  height: 16rem;
 }
 .h-8 {
   height: 2rem;
@@ -742,17 +742,14 @@ video {
 .h-\[var\(--radix-select-trigger-height\)\] {
   height: var(--radix-select-trigger-height);
 }
+.h-auto {
+  height: auto;
+}
 .h-full {
   height: 100%;
 }
 .h-px {
   height: 1px;
-}
-.h-64 {
-  height: 16rem;
-}
-.h-auto {
-  height: auto;
 }
 .max-h-96 {
   max-height: 24rem;

@@ -389,7 +389,7 @@ export function FormPageComponent() {
                   "Capital One",
                   "Citi",
                   "Discover",
-                  "US Bank",
+                  "U.S. Bank",
                   "Wells Fargo",
                   "Bank of America",
                   "PNC Bank",
