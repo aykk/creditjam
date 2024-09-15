@@ -203,7 +203,7 @@ export function ResourcesPageComponent() {
       </header>
 
       <main className="flex-grow container mx-auto px-4 py-8 relative z-10">
-        <h2 className="text-5xl font-extrabold text-blue-800 mb-12 text-center">Guide to Credit</h2>
+        <h2 className="text-5xl font-extrabold text-blue-800 mb-12 text-center">Guide to Credit!</h2>
         <div className="relative">
           <div className="overflow-x-auto whitespace-nowrap pb-8 pt-4 px-4 scrollbar-hide">
             <div className="inline-flex space-x-8">
@@ -214,7 +214,7 @@ export function ResourcesPageComponent() {
                     onClick={() => handleTopicClick(topic.id)}
                   >
                     <div className="text-center mb-2">
-                      <span className={`text-3xl font-bold ${completedTopics.has(topic.id) ? "'text-green-500'" : "'text-blue-500'"}`}>
+                      <span className="text-3xl font-bold text-blue-500">
                         {index + 1}
                       </span>
                       <span className="text-sm text-blue-400"> / {topics.length}</span>
@@ -225,13 +225,10 @@ export function ResourcesPageComponent() {
                     </div>
                     {completedTopics.has(topic.id) && (
                       <div className="absolute bottom-2 right-2">
-                        <Check className="w-6 h-6 text-green-500" />
+                        <Check className="w-8 h-8 text-green-500" />
                       </div>
                     )}
                   </div>
-                  {index < topics.length - 1 && (
-                    <div className="w-8 h-1 bg-blue-500 mx-auto mt-4"></div>
-                  )}
                 </div>
               ))}
             </div>
