@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { Music, CreditCard, Banknote, Info, List, CreditCard as CreditCardIcon, DollarSign, Gift, AlertTriangle, BarChart, ShieldCheck, GraduationCap, PlayCircle, CheckCircle } from "lucide-react"
+import { Music, CreditCard, Banknote, Info, List, CreditCard as CreditCardIcon, DollarSign, Gift, AlertTriangle, BarChart, ShieldCheck, GraduationCap, PlayCircle, CheckCircle, Check } from "lucide-react"
 import Link from "next/link"
 
 const topics = [
@@ -184,9 +184,9 @@ export function ResourcesPageComponent() {
                   <CreditCard className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
                 </Button>
               </Link>
-              <Link href="/resources" passHref>
+              <Link href="/guide" passHref>
                 <Button variant="ghost" className="text-blue-700 hover:text-blue-500 font-semibold group transition-all duration-300 ease-in-out text-lg rounded-full px-6 py-2 hover:bg-blue-100">
-                  Resources
+                  Guide
                   <Banknote className="w-0 h-0 group-hover:w-6 group-hover:h-6 ml-0 group-hover:ml-2 transition-all duration-300 ease-in-out text-blue-400" />
                 </Button>
               </Link>
@@ -208,9 +208,7 @@ export function ResourcesPageComponent() {
               {topics.map((topic, index) => (
                 <div key={topic.id} className="inline-block">
                   <div 
-                    className={`w-64 h-80 bg-white rounded-2xl shadow-lg cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl border-4 ${
-                      completedTopics.has(topic.id) ? "'border-green-500'" : "'border-blue-500'"
-                    } flex flex-col justify-between p-6`}
+                    className="w-64 h-80 bg-white rounded-2xl shadow-lg cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl flex flex-col justify-between p-6 relative"
                     onClick={() => handleTopicClick(topic.id)}
                   >
                     <div className="text-center mb-2">
@@ -221,6 +219,11 @@ export function ResourcesPageComponent() {
                       {topic.icon}
                       <h3 className="text-lg font-semibold text-blue-800 text-center mt-4 line-clamp-2">{topic.title}</h3>
                     </div>
+                    {completedTopics.has(topic.id) && (
+                      <div className="absolute bottom-2 right-2">
+                        <Check className="w-6 h-6 text-green-500" />
+                      </div>
+                    )}
                   </div>
                   {index < topics.length - 1 && (
                     <div className="w-8 h-1 bg-blue-500 mx-auto mt-4"></div>
