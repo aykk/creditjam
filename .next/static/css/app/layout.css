@@ -596,6 +596,9 @@ video {
   top: 0px;
   bottom: 0px;
 }
+.bottom-2 {
+  bottom: 0.5rem;
+}
 .left-0 {
   left: 0px;
 }
@@ -604,6 +607,9 @@ video {
 }
 .left-\[50\%\] {
   left: 50%;
+}
+.right-2 {
+  right: 0.5rem;
 }
 .right-4 {
   right: 1rem;

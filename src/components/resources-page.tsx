@@ -168,6 +168,8 @@ export function ResourcesPageComponent() {
     setCompletedTopics(prev => new Set(prev).add(topicId))
   }
 
+  const progressPercentage = (completedTopics.size / topics.length) * 100
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-300 via-blue-200 to-white relative overflow-hidden flex flex-col">
       <header className="bg-white shadow-lg relative z-10 border-b-4 border-blue-300 rounded-b-[2rem]">
@@ -212,7 +214,9 @@ export function ResourcesPageComponent() {
                     onClick={() => handleTopicClick(topic.id)}
                   >
                     <div className="text-center mb-2">
-                      <span className="text-3xl font-bold text-blue-500">{index + 1}</span>
+                      <span className={`text-3xl font-bold ${completedTopics.has(topic.id) ? "'text-green-500'" : "'text-blue-500'"}`}>
+                        {index + 1}
+                      </span>
                       <span className="text-sm text-blue-400"> / {topics.length}</span>
                     </div>
                     <div className="flex flex-col items-center justify-center flex-grow">
@@ -234,9 +238,15 @@ export function ResourcesPageComponent() {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p className="text-xl font-semibold text-blue-800">
+          <p className="text-xl font-bold text-blue-800 mb-2">
             Progress: {completedTopics.size} / {topics.length} topics completed
           </p>
+          <div className="w-full max-w-md mx-auto bg-gray-200 rounded-full h-4 overflow-hidden">
+            <div 
+              className="bg-green-500 h-full transition-all duration-500 ease-out"
+              style={{ width: `${progressPercentage}%` }}
+            ></div>
+          </div>
         </div>
       </main>
 
