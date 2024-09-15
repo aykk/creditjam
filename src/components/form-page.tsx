@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useCallback } from "react"
 import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Checkbox } from "@/components/ui/checkbox"
@@ -8,31 +8,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Music, CreditCard, Banknote, Search, X } from "lucide-react"
+import { Music, CreditCard, Banknote } from "lucide-react"
 import Link from "next/link"
-
-const creditCards = [
-  "Chase Sapphire Preferred",
-  "Chase Sapphire Reserve",
-  "American Express Gold Card",
-  "American Express Platinum Card",
-  "Capital One Venture",
-  "Capital One Quicksilver",
-  "Citi Double Cash",
-  "Citi Premier",
-  "Discover it Cash Back",
-  "Bank of America Cash Rewards",
-  "Wells Fargo Active Cash",
-  "U.S. Bank Altitude Reserve",
-  "Marriott Bonvoy Boundless",
-  "Hilton Honors American Express Surpass",
-  "Delta SkyMiles Gold American Express",
-  "United Explorer Card",
-  "Southwest Rapid Rewards Priority",
-  "Amazon Prime Rewards Visa Signature",
-  "Apple Card",
-  "Costco Anywhere Visa by Citi"
-]
 
 export function FormPageComponent() {
   const router = useRouter()
@@ -40,7 +17,6 @@ export function FormPageComponent() {
     age: "",
     income: "",
     creditScore: "",
-    currentCards: [],
     isStudent: "",
     isBusinessOwner: "",
     topCategories: [],
@@ -51,54 +27,33 @@ export function FormPageComponent() {
     interestedInAirlineCards: "",
     preferredAirline: "",
   })
-  const [searchTerm, setSearchTerm] = useState("")
 
-  const handleInputChange = (e) => {
+  const handleInputChange = useCallback((e) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+  }, [])
 
-  const handleSelectChange = (name, value) => {
+  const handleSelectChange = useCallback((name, value) => {
     setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+  }, [])
 
-  const handleCheckboxChange = (name, value) => {
+  const handleCheckboxChange = useCallback((name, value) => {
     setFormData((prev) => ({
       ...prev,
       [name]: prev[name].includes(value)
         ? prev[name].filter((item) => item !== value)
         : [...prev[name], value],
     }))
-  }
+  }, [])
 
-  const handleRadioChange = (name, value) => {
+  const handleRadioChange = useCallback((name, value) => {
     setFormData((prev) => ({ ...prev, [name]: value }))
-  }
+  }, [])
 
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log("Form data submitted:", formData)
     router.push("/complete")
-  }
-
-  const filteredCreditCards = creditCards.filter(card =>
-    card.toLowerCase().includes(searchTerm.toLowerCase())
-  )
-
-  const handleCreditCardSelect = (card) => {
-    setFormData((prev) => ({
-      ...prev,
-      currentCards: prev.currentCards.includes(card)
-        ? prev.currentCards.filter((c) => c !== card)
-        : [...prev.currentCards, card],
-    }))
-  }
-
-  const handleRemoveCreditCard = (card) => {
-    setFormData((prev) => ({
-      ...prev,
-      currentCards: prev.currentCards.filter((c) => c !== card),
-    }))
   }
 
   return (
@@ -155,56 +110,6 @@ export function FormPageComponent() {
                   </div>
                 ))}
               </RadioGroup>
-            </div>
-            <div>
-              <Label htmlFor="currentCards" className="text-blue-800 font-semibold">What credit cards do you currently have?</Label>
-              <div className="relative mt-1">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <Search className="h-5 w-5 text-gray-400" />
-                </div>
-                <Input
-                  type="text"
-                  placeholder="Search credit cards..."
-                  className="pl-10 pr-4 py-2 w-full border border-neutral-200 rounded-md text-blue-900 placeholder-blue-400 dark:border-neutral-800"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
-              </div>
-              <div className="mt-2 max-h-40 overflow-y-auto border border-neutral-200 rounded-md dark:border-neutral-800">
-                {filteredCreditCards.map((card) => (
-                  <div
-                    key={card}
-                    className={`p-2 cursor-pointer hover:bg-blue-50 ${
-                      formData.currentCards.includes(card) ? "'bg-blue-100'" : "''"
-                    }`}
-                    onClick={() => handleCreditCardSelect(card)}
-                  >
-                    <Checkbox
-                      checked={formData.currentCards.includes(card)}
-                      onCheckedChange={() => handleCreditCardSelect(card)}
-                      id={`card-${card}`}
-                      className="mr-2"
-                    />
-                    <Label htmlFor={`card-${card}`} className="text-blue-900 cursor-pointer">
-                      {card}
-                    </Label>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {formData.currentCards.map((card) => (
-                  <div key={card} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full flex items-center">
-                    <span className="mr-1">{card}</span>
-                    <button
-                      type="button"
-                      onClick={() => handleRemoveCreditCard(card)}
-                      className="text-blue-600 hover:text-blue-800"
-                    >
-                      <X className="h-4 w-4" />
-                    </button>
-                  </div>
-                ))}
-              </div>
             </div>
             <div>
               <Label className="text-blue-800 font-semibold">Are you currently a student?</Label>
