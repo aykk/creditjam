@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useFormData } from "../contexts/FormDataContext";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -19,8 +19,9 @@ import {
   ChevronRight,
 } from "lucide-react";
 import Link from "next/link";
+import { finalCards } from "/Users/jungmin/Documents/GitHub/creditjam/src/app/complete/algorithm.js"; // Import finalCards
 
-// Mock card information
+// Mock card information (unchanged)
 const cardInfo = {
   "Catch-All Card":
     "This versatile card offers rewards on a wide range of purchases, making it an excellent choice for everyday spending. With no category restrictions, you'll earn points or cashback on all your transactions.",
@@ -52,6 +53,9 @@ export function CompletePageComponent() {
       </div>
     );
   }
+
+  // Get recommended cards using finalCards function
+  const recommendedCards = finalCards(formData);
 
   const nextCategory = () => {
     setCurrentCategoryIndex((prevIndex) =>
@@ -125,32 +129,35 @@ export function CompletePageComponent() {
                 <ChevronLeft className="h-6 w-6" />
               </Button>
               <div className="flex space-x-4">
-                {[1, 2, 3].map((cardNumber) => (
-                  <Dialog key={cardNumber}>
-                    <DialogTrigger asChild>
-                      <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                        <CardContent>
-                          <p className="text-lg font-semibold text-blue-600">
-                            Card {cardNumber}
-                          </p>
-                        </CardContent>
-                      </Card>
-                    </DialogTrigger>
-                    <DialogContent className="bg-white">
-                      <DialogHeader>
-                        <DialogTitle className="text-2xl font-bold text-blue-800">
-                          Card {cardNumber} Details
-                        </DialogTitle>
-                      </DialogHeader>
-                      <p className="text-blue-900">
-                        This is a great card for{" "}
-                        {selectedCategories[currentCategoryIndex]}. It offers
-                        excellent rewards and benefits tailored to your spending
-                        habits.
-                      </p>
-                    </DialogContent>
-                  </Dialog>
-                ))}
+                {[0, 1, 2].map((index) => {
+                  const cardIndex = currentCategoryIndex * 3 + index;
+                  const card = recommendedCards[cardIndex];
+                  return (
+                    <Dialog key={index}>
+                      <DialogTrigger asChild>
+                        <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                          <CardContent>
+                            <p className="text-lg font-semibold text-blue-600">
+                              {card ? card.Name : `Card ${index + 1}`}
+                            </p>
+                          </CardContent>
+                        </Card>
+                      </DialogTrigger>
+                      <DialogContent className="bg-white">
+                        <DialogHeader>
+                          <DialogTitle className="text-2xl font-bold text-blue-800">
+                            {card ? card.Name : `Card ${index + 1} Details`}
+                          </DialogTitle>
+                        </DialogHeader>
+                        <p className="text-blue-900">
+                          {card
+                            ? card.Description || "No description available."
+                            : `This is a great card for ${selectedCategories[currentCategoryIndex]}. It offers excellent rewards and benefits tailored to your spending habits.`}
+                        </p>
+                      </DialogContent>
+                    </Dialog>
+                  );
+                })}
               </div>
               <Button
                 onClick={nextCategory}
@@ -167,30 +174,41 @@ export function CompletePageComponent() {
               Additional Recommended Cards
             </h3>
             <div className="flex justify-between space-x-4">
-              {Object.entries(cardInfo).map(([cardType, description]) => (
-                <div key={cardType} className="flex flex-col items-center">
-                  <p className="text-lg font-semibold text-blue-600 mb-2">
-                    {cardType}
-                  </p>
-                  <Dialog>
-                    <DialogTrigger asChild>
-                      <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                        <CardContent>
-                          <CreditCard className="h-16 w-16 text-blue-500" />
-                        </CardContent>
-                      </Card>
-                    </DialogTrigger>
-                    <DialogContent className="bg-white">
-                      <DialogHeader>
-                        <DialogTitle className="text-2xl font-bold text-blue-800">
-                          {cardType}
-                        </DialogTitle>
-                      </DialogHeader>
-                      <p className="text-blue-900">{description}</p>
-                    </DialogContent>
-                  </Dialog>
-                </div>
-              ))}
+              {[
+                { type: "Catch-All Card", index: 9 },
+                { type: "Hotel Card", index: 10 },
+                { type: "Airline Card", index: 11 },
+              ].map(({ type, index }) => {
+                const card = recommendedCards[index];
+                return (
+                  <div key={type} className="flex flex-col items-center">
+                    <p className="text-lg font-semibold text-blue-600 mb-2">
+                      {card ? card.Name : type}
+                    </p>
+                    <Dialog>
+                      <DialogTrigger asChild>
+                        <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                          <CardContent>
+                            <CreditCard className="h-16 w-16 text-blue-500" />
+                          </CardContent>
+                        </Card>
+                      </DialogTrigger>
+                      <DialogContent className="bg-white">
+                        <DialogHeader>
+                          <DialogTitle className="text-2xl font-bold text-blue-800">
+                            {card ? card.Name : type}
+                          </DialogTitle>
+                        </DialogHeader>
+                        <p className="text-blue-900">
+                          {card
+                            ? card.Description || "No description available."
+                            : cardInfo[type]}
+                        </p>
+                      </DialogContent>
+                    </Dialog>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>

@@ -223,8 +223,8 @@ export function FormPageComponent() {
               </Label>
               <div className="grid grid-cols-2 gap-2 mt-1">
                 {[
-                  "Dining/Restaurants",
-                  "Grocery/Supermarkets",
+                  "Dining",
+                  "Grocery",
                   "Travel",
                   "Gas",
                   "Entertainment",

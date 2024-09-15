@@ -1,0 +1,3301 @@
+[
+  {
+    "Issuer": "AMEX",
+    "Name": "American Express Platinum Card",
+    "Category": "Travel",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$695",
+    "Rewards": [
+      "5x on flights booked with American Express or directly with airlines",
+      "5x on hotels booked with American Express",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$200 airline fee credit",
+      "$200 Uber Cash credit",
+      "$200 hotel credit for bookings through Amex Fine Hotels & Resorts or the Hotel Collection",
+      "$189 CLEAR® credit",
+      "$100 Saks Fifth Avenue credit"
+    ],
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "50,000 points after spending $2000 in the first 6 months",
+    "Tier": "3",
+    "Score": "55" 
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Marriott Bonvoy Bevy™ American Express Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$250",
+    "Rewards": [
+      "6x on hotels participating in Marriott Bonvoy",
+      "4x on restaurants",
+      "4x on US supermarkets",
+      "2x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Marriott Bonvoy Points",
+    "SignupBonus": "75,000 points after spending $4000 in the first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Amex Everyday Preferred Credit Card",
+    "Category": "Grocery/Gas",
+    "CreditLevel": "Good-Excellent",
+    "APR": "18.24%-28.24%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on groceries at US supermarkets",
+      "2x on gas purchases",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "15,000 points after spending $2000 in the first 6 months",
+    "Tier": "2",
+    "Score": "40"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Hilton Honors American Express Aspire Card",
+    "Category": "Hotel",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$550",
+    "Rewards": [
+      "14x on purchases made directly with the Hilton portfolio",
+      "7x on flights booked with airlines",
+      "7x on Amex travel",
+      "7x on car rentals booked directly from car rental companies",
+      "7x on dining at US restaurants",
+      "3x on other purchases"
+    ],
+    "Credits": [
+      "$250 Hilton credit",
+      "$250 airline fee credit"
+    ],
+    "CashbackPoints": "Hilton Honors Points",
+    "SignupBonus": "150,000 points after spending $6,000 in the first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Blue Cash Preferred Card",
+    "Category": "Grocery/Entertainment/Gas/Transit",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 19.24%-29.99%",
+    "AnnualFee": "$0 first year, then $95",
+    "Rewards": [
+      "6% back on groceries at US supermarkets",
+      "6% back on select streaming subscriptions",
+      "3% back on transit",
+      "3% back at US gas stations",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$250 after spending $3,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "60"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "American Express Green Card",
+    "Category": "Travel/Transit/Dining",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$150",
+    "Rewards": [
+      "3x on travel",
+      "3x on transit",
+      "3x at restaurants worldwide",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "40,000 points after spending $3,000 in the first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Platinum American Express Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$350",
+    "Rewards": [
+      "3x on Delta purchases",
+      "3x on hotels booked directly",
+      "2x on restaurants",
+      "2x on groceries at US supermarkets",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Companion Certificate each year upon renewal"
+    ],
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "50,000 points after spending $3,000 in the first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Blue Cash Everyday Card",
+    "Category": "Grocery/Gas/Online/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 19.24%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back on groceries at US supermarkets",
+      "3% back on US online retail purchases",
+      "3% back on gas at US gas stations",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $2,000 in the first 6 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Amex EveryDay Credit Card",
+    "Category": "Grocery/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 18.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2x on groceries at US supermarkets",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "10,000 points after spending $2,000 in the first 6 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Gold American Express Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$0 first year, then $150",
+    "Rewards": [
+      "2x on dining at restaurants",
+      "2x on groceries at US supermarkets",
+      "2x on Delta purchases",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 Delta flight credit after spending $10,000 in a calendar year"
+    ],
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "40,000 points after spending $2,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Cash Magnet™ Credit Card",
+    "Category": "Catch All/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 19.24%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $2,000 in the first 6 months",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Marriott Bonvoy Brilliant® American Express® Card",
+    "Category": "Hotel",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$650",
+    "Rewards": [
+      "6x on hotels participating in Marriott Bonvoy",
+      "3x on restaurants",
+      "3x on flights booked directly with airlines",
+      "2x on other purchases"
+    ],
+    "Credits": [
+      "$300 statement credit ($25 restaurant credit per month)"
+    ],
+    "CashbackPoints": "Marriott Bonvoy Points",
+    "SignupBonus": "100,000 points and 1 free night award after spending $5,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Hilton Honors American Express Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "7x on purchases made directly with the Hilton portfolio",
+      "5x on dining at US restaurants",
+      "5x on groceries at US supermarkets",
+      "5x on gas at US gas stations",
+      "3x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Hilton Honors Points",
+    "SignupBonus": "80,000 points after spending $2,000 in the first 6 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Blue American Express Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2x on dining",
+      "2x on Delta purchases",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "10,000 points after spending $1,000 in the first 6 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "American Express® Gold Card",
+    "Category": "Dining/Grocery",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$325",
+    "Rewards": [
+      "4x on restaurants",
+      "4x on groceries at US supermarkets",
+      "3x on flights booked with Amex travel or directly with airlines",
+      "2x on hotels booked with Amex travel",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$120 dining credit ($10 monthly)",
+      "$120 Uber Cash credit ($10 monthly)",
+      "$84 Dunkin' Donuts credit ($7 monthly)",
+      "$100 Resy credit ($50 semi-annually)"
+    ],
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "60,000 points after spending $6,000 in the first 6 months",
+    "Tier": "3",
+    "Score": "60"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Reserve American Express Card",
+    "Category": "Airline",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$650",
+    "Rewards": [
+      "3x on Delta purchases",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Companion Certificate each year upon renewal"
+    ],
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "60,000 points after spending $5,000 in the first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Hilton Honors American Express Surpass® Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$150",
+    "Rewards": [
+      "12x on purchases made directly with the Hilton portfolio",
+      "6x on dining at US restaurants",
+      "6x on groceries at US supermarkets",
+      "6x on gas at US gas stations",
+      "4x on US online retail purchases",
+      "3x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Hilton Honors Points",
+    "SignupBonus": "130,000 points after spending $3,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "The Business Platinum Card®",
+    "Category": "Business/Travel",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "19.49%-28.49%",
+    "AnnualFee": "$695",
+    "Rewards": [
+      "5x on flights booked with Amex travel",
+      "1.5x on business categories (construction & hardware suppliers, electronic goods retailers, software & cloud system providers, and shipping providers)",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$200 airline fee credit",
+      "$400 Dell credit ($200 semi-annually)",
+      "$189 CLEAR® credit"
+    ],
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "150,000 points after spending $20,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "55"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "The Business Gold Card",
+    "Category": "Business",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.49%-28.49%",
+    "AnnualFee": "$375",
+    "Rewards": [
+      "4x on top 2 eligible categories (US media providers for advertising, electronic goods retailers, software & cloud system providers, US restaurants, US gas stations, transit, telephone service providers)",
+      "3x on flights and hotels booked with Amex travel",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "70,000 points after spending $15,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "55"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Blue Business Cash™ Card",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "18.49%-26.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on all purchases up to $50,000 per year",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$250 after spending $3,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "60"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Blue Business® Plus Credit Card",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "18.49%-26.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2x on all purchases up to $50,000 per year",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "15,000 points after spending $3,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "60"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "The Plum Card®",
+    "Category": "Business",
+    "CreditLevel": "Good-Excellent",
+    "APR": "N/A",
+    "AnnualFee": "$250",
+    "Rewards": [
+      "1.5% back on eligible charges if paid 10 days before statement closing date"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$500 after spending $15,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Business Green Rewards Card",
+    "Category": "Business",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "2x on flights and hotels booked with Amex travel",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AMEX Points",
+    "SignupBonus": "15,000 points after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Amazon Business Prime Card",
+    "Category": "Business/Online",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.49%-27.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back at Amazon with Prime membership",
+      "2% back at restaurants",
+      "2% back at gas stations",
+      "2% back on wireless phone services",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$125 Amazon gift card upon approval",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Amazon Business Card",
+    "Category": "Business/Online",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.49%-27.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back at Amazon",
+      "2% back at restaurants",
+      "2% back at gas stations",
+      "2% back on wireless phone services",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$100 Amazon gift card upon approval",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Platinum Business Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$350",
+    "Rewards": [
+      "3x on Delta purchases",
+      "1.5x on transit",
+      "1.5x on US shipping",
+      "1.5x on purchases of $5,000 or more (up to $100,000 per year)",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Companion Certificate each year upon renewal"
+    ],
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "50,000 points after spending $3,000 in first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Gold Business Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$0 first year, then $150",
+    "Rewards": [
+      "2x on Delta purchases",
+      "2x at shipping and advertising providers in select media",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 Delta flight credit after spending $10,000 in a calendar year"
+    ],
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "55,000 points after spending $4,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Delta SkyMiles® Reserve Business Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$650",
+    "Rewards": [
+      "3x on Delta purchases",
+      "1.5x on transit",
+      "1.5x on US shipping",
+      "1.5x on purchases at office supply stores",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Companion Certificate each year upon renewal"
+    ],
+    "CashbackPoints": "Delta SkyMiles",
+    "SignupBonus": "75,000 points after spending $10,000 in the first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Hilton Honors Business Card",
+    "Category": "Business/Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$195",
+    "Rewards": [
+      "12x on purchases made directly with the Hilton portfolio",
+      "5x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Hilton Honors Points",
+    "SignupBonus": "130,000 points after spending $6,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Marriott Bonvoy Business® Credit Card",
+    "Category": "Business/Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$125",
+    "Rewards": [
+      "6x on hotels participating in Marriott Bonvoy",
+      "4x on restaurants",
+      "4x on US gas stations",
+      "4x on wireless telephone services",
+      "4x on shipping",
+      "2x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Marriott Bonvoy Points",
+    "SignupBonus": "3 free night awards worth up to 50,000 points each after spending $6,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "AMEX",
+    "Name": "Lowe's Business Rewards Card",
+    "Category": "Business",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back at Lowe's",
+      "2% back on US restaurants",
+      "2% back on US office supply stores",
+      "2% back on wireless telephone services",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "5% back at Lowe's for the first 6 months",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Platinum Mastercard®",
+    "Category": "Rebuilding",
+    "CreditLevel": "Fair-Good",
+    "APR": "29.99%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Venture X",
+    "Category": "Travel",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$395",
+    "Rewards": [
+      "10x on hotels and rental cars booked with Capital One Travel",
+      "5x on flights and vacation rentals booked through Capital One Travel",
+      "2x on other purchases"
+    ],
+    "Credits": [
+      "$300 annual travel credit for bookings through Capital One Travel",
+      "10,000 miles bonus every anniversary",
+      "$100 Global Entry or TSA Precheck credit"
+    ],
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "75,000 points after spending $4,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "60"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Venture Rewards",
+    "Category": "Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "5x on hotels, vacation rentals, and rental cars booked through Capital One Travel",
+      "2x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "75,000 points after spending $4,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "VentureOne Rewards",
+    "Category": "Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5x on hotels and rental cars booked through Capital One Travel",
+      "1.25x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "20,000 points after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "VentureOne Rewards for Good Credit",
+    "Category": "Travel",
+    "CreditLevel": "Good",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5x on hotels and rental cars booked through Capital One Travel",
+      "1.25x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Quicksilver Rewards",
+    "Category": "Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Quicksilver Rewards for Good Credit",
+    "Category": "Catch All",
+    "CreditLevel": "Good",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "SavorOne Rewards",
+    "Category": "Dining/Grocery/Entertainment",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on hotels and rental cars booked through Capital One Travel",
+      "3% back on dining",
+      "3% back on entertainment",
+      "3% back on streaming services",
+      "3% back on grocery stores",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "SavorOne Rewards for Good Credit",
+    "Category": "Dining/Grocery/Entertainment",
+    "CreditLevel": "Good",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on hotels and rental cars booked through Capital One Travel",
+      "3% back on dining",
+      "3% back on entertainment",
+      "3% back on streaming services",
+      "3% back on grocery stores",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "QuicksilverOne Rewards",
+    "Category": "Catch All",
+    "CreditLevel": "Fair",
+    "APR": "29.99% variable",
+    "AnnualFee": "$39",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "SavorOne Rewards for Students",
+    "Category": "Student/Dining/Grocery/Entertainment",
+    "CreditLevel": "Fair-Good",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back on dining",
+      "3% back on entertainment",
+      "3% back on streaming services",
+      "3% back on grocery stores",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$50 after spending $100 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Quicksilver Rewards for Students",
+    "Category": "Student/Catch All",
+    "CreditLevel": "Fair-Good",
+    "APR": "19.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$50 after spending $100 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Quicksilver Secured Rewards",
+    "Category": "Catch All",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.99% variable",
+    "AnnualFee": "$0 ($200 security deposit)",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Platinum Secured",
+    "Category": "Rebuilding",
+    "CreditLevel": "Poor",
+    "APR": "29.99% variable",
+    "AnnualFee": "$0 ($49, $99, $200 security deposit)",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Spark Cash Plus",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "Charge Card",
+    "AnnualFee": "$150",
+    "Rewards": [
+      "5% back on hotel and car rental bookings through Capital One Travel",
+      "2% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$2,000 after spending $30,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Spark 1.5% Cash Select (Excellent Credit)",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "18.49%-24.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$750 after spending $6,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Spark 1.5% Cash Select (Good Credit)",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Spark 1% Classic",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Fair-Good",
+    "APR": "29.99% variable",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Venture X Business",
+    "Category": "Business/Travel/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "Charge Card",
+    "AnnualFee": "$395",
+    "Rewards": [
+      "10x on hotels and rental cars booked through Capital One Travel",
+      "5x on flights booked through Capital One Travel",
+      "2x on other purchases"
+    ],
+    "Credits": [
+      "$300 annual travel credit for bookings through Capital One Travel",
+      "$100 Global Entry or TSA Precheck credit"
+    ],
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "150,000 points after spending $30,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "60"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Spark 2X Miles",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "26.24% variable",
+    "AnnualFee": "$0 first year, then $95",
+    "Rewards": [
+      "5x on hotels and rental cars booked through Capital One Travel",
+      "2x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "50,000 points after spending $4,500 in the first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Capital One",
+    "Name": "Spark 1.5X Miles Select",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "18.49%-24.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5x on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Capital One Miles",
+    "SignupBonus": "50,000 points after spending $4,500 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Chase Sapphire Preferred®",
+    "Category": "Travel/Dining/Grocery",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "5x on travel booked through Chase Travel",
+      "3x on dining",
+      "3x on online grocery purchases",
+      "3x on streaming services",
+      "2x on other travel purchases",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "25% points boost when redeemed for travel through Chase Ultimate Rewards"
+    ],
+    "CashbackPoints": "Chase Ultimate Rewards",
+    "SignupBonus": "60,000 points after spending $4,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "60"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Chase Sapphire Reserve®",
+    "Category": "Travel/Dining",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "22.49%-29.49%",
+    "AnnualFee": "$550",
+    "Rewards": [
+      "10x on hotels and car rentals booked through Chase",
+      "5x on flights booked through Chase",
+      "3x on dining",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$300 annual travel credit",
+      "50% points boost when redeemed for travel through Chase Ultimate Rewards"
+    ],
+    "CashbackPoints": "Chase Ultimate Rewards",
+    "SignupBonus": "60,000 points after spending $4,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Chase Freedom Unlimited®",
+    "Category": "Dining/Catch All/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 20.49%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on travel booked through Chase",
+      "3% back on dining",
+      "3% back on drugstore purchases",
+      "1.5% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Chase Freedom Flex®",
+    "Category": "Rotating/Dining/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 20.49%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on rotating categories such as gas, grocery, entertainment, etc.",
+      "5% back on travel booked through Chase",
+      "3% back on dining",
+      "3% back on drugstore purchases",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Chase Freedom Rise®",
+    "Category": "Rebuilding/Catch All",
+    "CreditLevel": "Fair",
+    "APR": "26.99% variable",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Slate Edge®",
+    "Category": "Rebuilding/Balance Transfer",
+    "CreditLevel": "Good",
+    "APR": "0% intro for 18 months, then 20.49%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Prime Visa",
+    "Category": "Online",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.49%-29.24%",
+    "AnnualFee": "$0 (need Amazon Prime membership)",
+    "Rewards": [
+      "5% back at Amazon, Amazon Fresh, Whole Foods, and Chase Travel",
+      "2% back on gas",
+      "2% back on restaurants",
+      "2% back on transit",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$100 Amazon gift card upon approval",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Amazon Visa",
+    "Category": "Online",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.49%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back at Amazon",
+      "3% back at Amazon Fresh",
+      "3% back at Whole Foods",
+      "3% back on Chase Travel",
+      "2% back on gas",
+      "2% back on restaurants",
+      "2% back on transit",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$50 Amazon gift card upon approval",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Southwest Rapid Rewards® Plus",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$69",
+    "Rewards": [
+      "2x on Southwest purchases",
+      "2x on Southwest hotel and car rental partners",
+      "2x on transit",
+      "2x on internet, cable, and phone services",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Rapid Rewards Points",
+    "SignupBonus": "50,000 points after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Southwest Rapid Rewards® Priority",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$149",
+    "Rewards": [
+      "3x on Southwest purchases",
+      "2x on Southwest hotel and car rental partners",
+      "2x on transit",
+      "2x on internet, cable, and phone services",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$75 Southwest credit",
+      "4 upgraded boardings annually"
+    ],
+    "CashbackPoints": "Rapid Rewards Points",
+    "SignupBonus": "50,000 points after spending $1,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Southwest Rapid Rewards® Premier",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "3x on Southwest purchases",
+      "2x on Southwest hotel and car rental partners",
+      "2x on transit",
+      "2x on internet, cable, and phone services",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Rapid Rewards Points",
+    "SignupBonus": "50,000 points after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "United Explorer Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.99%-28.99%",
+    "AnnualFee": "$0 first year, then $95",
+    "Rewards": [
+      "7x on United flights",
+      "4x on hotels booked through United Hotels",
+      "2x on other United purchases",
+      "2x on hotel stays booked through the hotel",
+      "2x on dining",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "1 free checked bag",
+      "2 United Club passes annually",
+      "$100 Global Entry/TSA Precheck credit"
+    ],
+    "CashbackPoints": "United MileagePlus Miles",
+    "SignupBonus": "50,000 points after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "United Quest℠ Card",
+    "Category": "Airline",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "21.99%-28.99%",
+    "AnnualFee": "$250",
+    "Rewards": [
+      "8x on United flights",
+      "4x on hotels booked through United Hotels",
+      "3x on other United purchases",
+      "2x on other travel",
+      "2x on dining",
+      "2x on select streaming services",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$125 United credit annually",
+      "2 free checked bags"
+    ],
+    "CashbackPoints": "United MileagePlus Miles",
+    "SignupBonus": "60,000 points after spending $4,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "United Gateway℠ Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 21.99%-28.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "7x on United flights",
+      "3x on hotels booked through United Hotels",
+      "2x on other United purchases",
+      "2x on gas",
+      "2x on transit",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "United MileagePlus Miles",
+    "SignupBonus": "20,000 points after spending $1,000 in first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "United Club℠ Infinite Card",
+    "Category": "Airline",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "21.99%-28.99%",
+    "AnnualFee": "$525",
+    "Rewards": [
+      "9x on United flights",
+      "4x on hotels booked through United Hotels",
+      "4x on other United purchases",
+      "2x on dining",
+      "2x on transit",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "United Club membership",
+      "2 free checked bags",
+      "$100 Global Entry/TSA Precheck credit"
+    ],
+    "CashbackPoints": "United MileagePlus Miles",
+    "SignupBonus": "80,000 points after spending $5,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Aeroplan® Credit Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.74%-28.74%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on dining",
+      "3x on groceries",
+      "3x on Air Canada purchases",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Free first checked bag",
+      "$100 Global Entry/TSA Precheck credit"
+    ],
+    "CashbackPoints": "Aeroplan Miles",
+    "SignupBonus": "70,000 points after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Marriott Bonvoy Boundless®",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "17x on purchases made with Marriott hotels",
+      "3x on grocery",
+      "3x on gas stations",
+      "3x on dining",
+      "2x on other purchases"
+    ],
+    "Credits": [
+      "1 free night annually"
+    ],
+    "CashbackPoints": "Marriott Bonvoy Points",
+    "SignupBonus": "3 free night awards after spending $3,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Marriott Bonvoy Bountiful",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$250",
+    "Rewards": [
+      "18.5x on purchases made with Marriott hotels",
+      "4x on grocery",
+      "3x on dining",
+      "2x on other purchases"
+    ],
+    "Credits": [
+      "1 free night annually"
+    ],
+    "CashbackPoints": "Marriott Bonvoy Points",
+    "SignupBonus": "85,000 points after spending $4,000 in first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Marriott Bonvoy Bold®",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "14x on purchases made with Marriott hotels",
+      "2x on grocery",
+      "2x on dining",
+      "2x streaming, internet and phone services",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Marriott Bonvoy Points",
+    "SignupBonus": "60,000 points and 1 free night award after spending $2,000 in first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "IHG® Rewards Premier Credit Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "26x on IHG purchases",
+      "5x on dining",
+      "5x on gas stations",
+      "5x on travel",
+      "3x on other purchases"
+    ],
+    "Credits": [
+      "1 free night annually",
+      "$100 Global Entry/TSA Precheck credit",
+      "$50 United TravelBank Cash"
+    ],
+    "CashbackPoints": "IHG One Rewards",
+    "SignupBonus": "5 free nights after spending $4,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "IHG® Rewards Traveler Credit Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "17x on IHG purchases",
+      "3x on dining",
+      "3x on gas stations",
+      "3x on utilities",
+      "3x on streaming services",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "IHG One Rewards",
+    "SignupBonus": "80,000 points after spending $2,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Disney® Visa® Card",
+    "Category": "Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 6 months, then 19.24%-28.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "10% back on purchases at Disney locations and online store",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$150 after spending $500 in first 3 months",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Disney® Premier Visa® Card",
+    "Category": "Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 6 months, then 19.24%-28.24%",
+    "AnnualFee": "$49",
+    "Rewards": [
+      "10% back on purchases at Disney locations and online store",
+      "5% back on purchases made at DisneyPlus, Hulu or ESPN",
+      "2% back on gas, grocery, restaurants",
+      "1% back on other purchases"
+    ],
+    "Credits": [
+      "Up to $14.99 back for 3 months for Disney Bundle subscriptions at DisneyPlus, Hulu, and ESPN"
+    ],
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$300 after spending $1,000 in first 3 months",
+    "Tier": "2",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "World of Hyatt Credit Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "9x on Hyatt purchases",
+      "2x on dining",
+      "2x on flights booked directly with airlines",
+      "2x on transit",
+      "2x on gym memberships",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "1 free night annually"
+    ],
+    "CashbackPoints": "Hyatt Points",
+    "SignupBonus": "30,000 points after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "British Airways Visa Signature® Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on British Airways purchases",
+      "3x on Iberia and Aer Lingus purchases",
+      "2x on hotels",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "10% discount on British Airways flights"
+    ],
+    "CashbackPoints": "Avios",
+    "SignupBonus": "75,000 Avios after spending $5,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Aer Lingus Visa Signature® Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on Aer Lingus purchases",
+      "3x on British Airways and Iberia purchases",
+      "2x on hotels",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Priority boarding on Aer Lingus flights"
+    ],
+    "CashbackPoints": "Avios",
+    "SignupBonus": "75,000 Avios after spending $5,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Iberia Visa Signature® Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on Iberia purchases",
+      "3x on British Airways and Aer Lingus purchases",
+      "2x on hotels",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "10% discount on Iberia flights"
+    ],
+    "CashbackPoints": "Avios",
+    "SignupBonus": "75,000 Avios after spending $5,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "DoorDash Rewards Mastercard®",
+    "Category": "Dining",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.24%-28.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "4% back on DoorDash and Caviar orders",
+      "3% back on dining",
+      "2% back on grocery",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "1 year of DashPass",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Instacart Mastercard®",
+    "Category": "Grocery",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.24%-28.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on Instacart",
+      "5% back on Chase Travel purchases",
+      "2% back on restaurants, gas, and select streaming services",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$50 Instacart credit",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Ink Business Premier® Credit Card",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.49%-27.49%",
+    "AnnualFee": "$195",
+    "Rewards": [
+      "2.5% back on large purchases of $5,000 or more",
+      "2% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$1,000 after spending $10,000 in first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Ink Business Unlimited® Credit Card",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 18.49%-24.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$750 after spending $6,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Ink Business Cash® Credit Card",
+    "Category": "Business",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 18.49%-24.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on office supply stores",
+      "5% back on internet, cable, and phone services",
+      "2% back on gas stations",
+      "2% back on dining",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$350 after spending $3,000 in purchases in first 3 months and an additional $400 after spending $6,000 in first 6 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Ink Business Preferred® Credit Card",
+    "Category": "Business",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-26.24%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on travel",
+      "3x on shipping",
+      "3x on internet, cable, and phone services",
+      "3x on advertising with social media and search engines",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Chase Ultimate Rewards",
+    "SignupBonus": "120,000 points after spending $8,000 in first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+  "Issuer": "Chase",
+  "Name": "United Business Card",
+  "Category": "Business/Airline",
+  "CreditLevel": "Good-Excellent",
+  "APR": "21.99%-28.99%",
+  "AnnualFee": "$0 first year, then $99",
+  "Rewards": [
+    "7x on United flights",
+    "2x on other United purchases",
+    "3x on hotels booked through United hotels",
+    "2x on dining",
+    "2x on gas stations",
+    "2x on transit",
+    "2x on office supply stores",
+    "1x on other purchases"
+  ],
+  "Credits": [
+    "1 free checked bag",
+    "2 United Club passes annually"
+  ],
+  "CashbackPoints": "United MileagePlus Miles",
+  "SignupBonus": "75,000 points after spending $5,000 in the first 3 months",
+  "Tier": "2",
+  "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "United Club Business Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.99%-28.99%",
+    "AnnualFee": "$450",
+    "Rewards": [
+      "7x on United flights",
+      "2x on other United purchaes",
+      "3.5x on hotels booked through United hotels",
+      "1.5x on other purchases"
+    ],
+    "Credits": [
+      "United Club Membership"
+    ],
+    "CashbackPoints": "United MileagePlus Miles",
+    "SignupBonus": "50,000 points + 1,000 qualifying points after spending $5,000 in first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Southwest Rapid Rewards® Performance Business Credit Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$199",
+    "Rewards": [
+      "4x on Southwest purchases",
+      "3x on Southwest hotel and car rental partners",
+      "2x on transit",
+      "2x on internet, cable, and phone services",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 Global Entry/TSA Precheck credit",
+      "4 upgraded boardings annually",
+      "9,000 bonus anniversary points"
+    ],
+    "CashbackPoints": "Rapid Rewards Points",
+    "SignupBonus": "80,000 points after spending $5,000 in first 3 months and an additional 40,000 points after spending $15,000 in 9 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "Southwest Rapid Rewards® Premier Business Credit Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "3x on Southwest purchases",
+      "2x on Southwest hotel and car rental partners",
+      "2x on transit",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "6,000 bonus anniversary points"
+    ],
+    "CashbackPoints": "Rapid Rewards Points",
+    "SignupBonus": "60,000 points after spending $3,000 in first 3 months and an additional 60,000 points after spending $15,000 in 9 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "IHG® Rewards Premier Business Card",
+    "Category": "Business/Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "26x on IHG purchases",
+      "5x on dining",
+      "5x on gas stations",
+      "5x on office supply stores",
+      "5x on advertising",
+      "3x on other purchases"
+    ],
+    "Credits": [
+      "1 free night annually"
+    ],
+    "CashbackPoints": "IHG Rewards Points",
+    "SignupBonus": "140,000 points after spending $4,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Chase",
+    "Name": "World of Hyatt Business Credit Card",
+    "Category": "Business/Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-28.49%",
+    "AnnualFee": "$199",
+    "Rewards": [
+      "9x on Hyatt purchases",
+      "2x on dining",
+      "2x on transit",
+      "2x on office supply stores",
+      "2x on fitness clubs",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "1 free night annually"
+    ],
+    "CashbackPoints": "Hyatt Points",
+    "SignupBonus": "60,000 points after spending $5,000 in first 3 months and an additional 15,000 points after spending $12,000 in first 6 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi® / AAdvantage® Platinum Select® World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$0 for the first year, then $99",
+    "Rewards": [
+      "2x on dining",
+      "2x on gas",
+      "2x on American Airline purchases",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AAdvantage Miles",
+    "SignupBonus": "75,000 points after spending $3,500 in the first 4 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi Strata Premier Card",
+    "Category": "Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "10x on hotel, car rentals, and attractions booked through CitiTravel",
+      "3x on air travel",
+      "3x on hotel",
+      "3x on dining", 
+      "3x on supermarkets", 
+      "3x on gas stations", 
+      "3x on ev charging stations",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 annual hotel credit"
+    ],
+    "CashbackPoints": "Citi ThankYou Points",
+    "SignupBonus": "75,000 points after spending $4,000 in first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi Double Cash® Credit Card",
+    "Category": "Catch All/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 18 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $1,500 in the first 6 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi Custom Cash® Card",
+    "Category": "Rotating/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on top spending category up to $500: restaurants, gas stations, grocery stores, travel, transit, streaming services, drugstores, home improvement stores, fitness clubs, live entertainment",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $1,500 in the first 6 months",
+    "Tier": "1",
+    "Score": "60"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi Rewards+® Card",
+    "Category": "Grocery/Gas/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 18.74%-28.74%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2x on supermarkets",
+      "2x on gas",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Citi ThankYou Points",
+    "SignupBonus": "20,000 after spending $1,500 in first 3 months",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi Simplicity® Card",
+    "Category": "Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 19.24%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi Diamond Preferred® Card",
+    "Category": "Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 18.24%-28.99%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Costco Anywhere Visa® Card by Citi",
+    "Category": "Gas/Dining/Grocery",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.49% variable",
+    "AnnualFee": "$0 (Costco membership required)",
+    "Rewards": [
+      "4% back on gas and EV charging",
+      "3% back on dining",
+      "3% back on travel",
+      "2% back on Costco",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi® / AAdvantage® Executive World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$595",
+    "Rewards": [
+      "4x on American Airline purchases",
+      "10x on hotel and car rentals booked through aa.com",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Admirals Club Membership",
+      "$100 Global Entry/TSA Precheck credit",
+      "Free first checked bag"
+    ],
+    "CashbackPoints": "AAdvantage Miles",
+    "SignupBonus": "70,000 points after spending $7,000 in first 3 months",
+    "Tier": "3",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "American Airlines AAdvantage® MileUp® Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2x on grocery",
+      "2x on American Airline purchases",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AAdvantage Miles",
+    "SignupBonus": "15,000 points after spending $500 in first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi® / AAdvantage Business™ World Elite Mastercard®",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$0 first year, then $99",
+    "Rewards": [
+      "2x on telecommunications",
+      "2x on cable",
+      "2x on car rental",
+      "2x on gas", 
+      "2x on American Airline purchases",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "AAdvantage Miles",
+    "SignupBonus": "65,000 points after spending $4,000 in first 4 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Citi® Secured Mastercard®",
+    "Category": "Rebuilding",
+    "CreditLevel": "Poor-Fair",
+    "APR": "27.74% variable",
+    "AnnualFee": "$200-$2,500 security deposit",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "Costco Anywhere Visa® Business Card by Citi",
+    "Category": "Business/Gas/Dining/Grocery",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.49% variable",
+    "AnnualFee": "$0 (Costco membership required)",
+    "Rewards": [
+      "4% back on gas and EV charging",
+      "3% back on dining",
+      "3% back on travel",
+      "2% back on Costco",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Citi",
+    "Name": "AT&T Points Plus® Card From Citi",
+    "Category": "Gas/Grocery",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3x on gas",
+      "3x on ev charging",
+      "2x on grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Up to $240 back towards AT&T wireless bill"
+    ],
+    "CashbackPoints": "Citi ThankYou Points",
+    "SignupBonus": "$100 after spending $1,000 in first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Discover",
+    "Name": "Discover it® Cash Back",
+    "Category": "Rotating/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 18.24%-28.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on rotating categories such as gas, groceries, and restaurants (up to $1,500 per quarter)",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "Cashback match (unlimited cash back match in first year)",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Discover",
+    "Name": "Discover it® Student Cash Back Credit Card",
+    "Category": "Student/Rotating",
+    "CreditLevel": "Fair-Good",
+    "APR": "0% intro for 6 months, then 18.24%-27.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on rotating categories such as gas, groceries, and restaurants (up to $1,500 per quarter)",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "Unlimited cashback match for the first year",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Discover",
+    "Name": "Discover it® Secured Credit Card",
+    "Category": "Rebuilding",
+    "CreditLevel": "Poor-Fair",
+    "APR": "28.24% variable",
+    "AnnualFee": "$0 ($200 security deposit)",
+    "Rewards": [
+      "2% back on gas and dining up to $1,000 each quarter",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "Unlimited cashback match for the first year",
+    "Tier": "0",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Discover",
+    "Name": "Discover it® Student Chrome Credit Card",
+    "Category": "Student/Gas/Dining",
+    "CreditLevel": "Fair-Good",
+    "APR": "0% intro for 6 months, then 18.24%-27.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on gas and dining up to $1,000 each quarter",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "Unlimited cashback match for the first year",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Discover",
+    "Name": "Discover it® Miles",
+    "Category": "Travel/Catch All/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 18.24%-28.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5x on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Discover Miles",
+    "SignupBonus": "Unlimited miles match in first year",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Discover",
+    "Name": "Discover it® Chrome Gas & Restaurant Credit Card",
+    "Category": "Gas/Dining/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 18.24%-28.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on gas and dining up to $1,000 each quarter",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "Unlimited cashback match for the first year",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Cash+® Visa Signature® Card",
+    "Category": "Rotating/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 15 months, then 19.49%-29.74%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5% back on two categories (TV, internet, streaming services, utilities, department stores, electronic stores, gym memberships, furniture stores, transit, etc) up to $2,000 per quarter",
+      "5% back on travel booked through US Bank",
+      "2% back on one category (grocery, restaurant, gas, EV charging)",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Altitude® Go Visa Signature® Card",
+    "Category": "Dining/Gas/Grocery",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 18.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "4x on dining",
+      "2x on gas and EV charging",
+      "2x on streaming services and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$15 annual streaming credit"
+    ],
+    "CashbackPoints": "US Bank Points",
+    "SignupBonus": "20,000 points after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Visa Platinum® Card",
+    "Category": "Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 21 months, then 18.24%-29.74%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Altitude® Connect Visa Signature® Card",
+    "Category": "Travel/Gas",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% intro for 12 months, then 21.24%-29.24%",
+    "AnnualFee": "$0 first year, then $95",
+    "Rewards": [
+      "5x on hotels and car rentals booked through US Bank",
+      "4x on travel, gas, and EV charging",
+      "2x on dining, streaming services, and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 credit for Global Entry or TSA Precheck"
+    ],
+    "CashbackPoints": "US Bank Points",
+    "SignupBonus": "20,000 points after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Shopper Cash Rewards® Visa Signature® Card",
+    "Category": "Rotating",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.74%-29.74%",
+    "AnnualFee": "$0 first year, then $95",
+    "Rewards": [
+      "6% back on select merchants (Amazon, Walmart, Target, Ikea, Best Buy, Apple, Macy's, Home Depot, Lowe's, etc) up to $1,500 per quarter",
+      "3% back on utilities, gas, EV charging, wholesale clubs up to $1,500 per quarter",
+      "1.5% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$250 after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Altitude® Reserve Visa Infinite® Card",
+    "Category": "Travel/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "22.24%-29.24%",
+    "AnnualFee": "$400",
+    "Rewards": [
+      "5x on hotels and car rentals booked through US Bank",
+      "3x on travel and mobile wallet spending (Apple Pay, Google Wallet, Samsung Pay)",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$325 annual statement credit on travel and dining purchases",
+      "$100 credit for Global Entry or TSA Precheck"
+    ],
+    "CashbackPoints": "US Bank Points",
+    "SignupBonus": "50,000 points after spending $4,500 in first 3 months",
+    "Tier": "3",
+    "Score": "60"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Altitude Go® Secured Visa® Signature Card",
+    "Category": "Rebuilding/Dining/Gas/Grocery",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.99% variable",
+    "AnnualFee": "$0 ($300-$5,000 security deposit)",
+    "Rewards": [
+      "4x on dining",
+      "2x on gas and EV charging",
+      "2x on streaming services and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$15 annual streaming credit"
+    ],
+    "CashbackPoints": "US Bank Points",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Cash+® Secured Visa® Card",
+    "Category": "Rebuilding/Rotating",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.99% variable",
+    "AnnualFee": "$0 ($300-$5,000 security deposit)",
+    "Rewards": [
+      "5% back on two categories (TV, internet, streaming services, utilities, department stores, electronic stores, gym memberships, furniture stores, transit, etc) up to $2,000 per quarter",
+      "2% back on one category (grocery, restaurant, gas, EV charging)",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Secured Visa® Card",
+    "Category": "Rebuilding",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.24% variable",
+    "AnnualFee": "$0 ($300-$5,000 security deposit)",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Business Altitude™ Power World Elite Mastercard®",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.99%-26.99%",
+    "AnnualFee": "$195",
+    "Rewards": [
+      "2.5x on mobile wallet purchases up to $5,000 per quarter",
+      "2x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "US Bank Points",
+    "SignupBonus": "75,000 points after spending $10,000 in the first 4 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Business Altitude™ Connect World Elite Mastercard®",
+    "Category": "Business/Travel/Gas",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.99%-26.99%",
+    "AnnualFee": "$0 for the first year, then $95",
+    "Rewards": [
+      "5x on hotel and car rentals booked through US Bank",
+      "4x on travel, gas, EV charging",
+      "2x on dining, cell phone services",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$25 statement credit after 3 taxi or rideshare purchases each month"
+    ],
+    "CashbackPoints": "US Bank Points",
+    "SignupBonus": "60,000 points after spending $6,000 in the first 6 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Triple Cash Rewards Visa® Business Card",
+    "Category": "Business/Gas/Dining",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 12 months, then 18.99%-27.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back on gas, EV charging, office supply stores, restaurants, and cell phone service providers",
+      "1% back on other purchases"
+    ],
+    "Credits": [
+      "$100 credit for software subscriptions such as FreshBooks or QuickBooks"
+    ],
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$750 after spending $6,000 in the first 6 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "Business Leverage® Visa Signature® Card",
+    "Category": "Business/Rotating",
+    "CreditLevel": "Good-Excellent",
+    "APR": "19.66%-26.99%",
+    "AnnualFee": "$0 for the first year, then $95",
+    "Rewards": [
+      "5% back on hotels and car rentals booked through US Bank",
+      "2% back on top two categories (https://www.usbank.com/leveragecategories)",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$750 after spending $7,500 in the first 4 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "US Bank",
+    "Name": "U.S. Bank Business Platinum Card",
+    "Category": "Business/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for the first 18 months, then 17.99%-26.99%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Wells Fargo Active Cash® Credit Card",
+    "Category": "Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 12 months, then 20.24%, 25.24%, or 29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Wells Fargo Autograph Journey℠ Card",
+    "Category": "Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%, 26.24%, or 29.99%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "5x on hotels",
+      "4x on airlines",
+      "3x on restaurants and other travel",
+      "1x on other purchases"
+    ],
+    "Credits": "$50 annual credit with a $50 minimum airline purchase",
+    "CashbackPoints": "Wells Fargo Points",
+    "SignupBonus": "60,000 points after spending $4,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Wells Fargo Autograph℠ Card",
+    "Category": "Travel/Dining/Gas/Transit",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.24%, 25.24%, or 29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3x on dining, travel, gas, transit, streaming services, and phone plans",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Wells Fargo Points",
+    "SignupBonus": "20,000 points after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Wells Fargo Reflect® Card",
+    "Category": "Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 21 months, then 18.24%, 24.74%, or 29.99%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Wells Fargo Attune℠ Card",
+    "Category": "Entertainment/Transit",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 12 months, then 20.24%, 25.24%, or 29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "4% back on gym memberships, spas, barber shops, entertainment, transit, and EV charging",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$100 after spending $500 in the first 3 months",
+    "Tier": "1",
+    "Score": "55"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Bilt Mastercard®",
+    "Category": "Rent/Dining/Travel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.49%, 24.49%, or 29.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3x on dining",
+      "2x on travel",
+      "1x on rent without transaction fees",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "2x points on rent day (first of the month)",
+      "$5 Lyft credit after taking 3 rides in one month"
+    ],
+    "CashbackPoints": "Bilt Points",
+    "SignupBonus": "N/A",
+    "Tier": "2",
+    "Score": "60"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "One Key™ Card",
+    "Category": "Travel/Gas/Grocery/Dining",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.24%, 25.24%, or 29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "9% back on Expedia and Hotels.com",
+      "5% back on Vrbo",
+      "3% back on gas, grocery, and dining",
+      "1.5% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$400 OneKeyCash after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "30"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "One Key+™",
+    "Category": "Travel/Gas/Grocery/Dining/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "20.24%, 25.24%, or 29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "9% back on Expedia and Hotels.com",
+      "5% back on Vrbo",
+      "3% back on gas, grocery, and dining",
+      "2% back on other purchases"
+    ],
+    "Credits": [
+      "$100 OneKeyCash each year",
+      "$100 credit for Global Entry or TSA Precheck"
+    ],
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$600 OneKeyCash after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "30"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Choice Privileges® Mastercard®",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%, 25.24%, or 29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5x on purchases at Choice Hotel properties",
+      "3x on gas, grocery, home improvement stores, and phone plans",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Choice Privileges Points",
+    "SignupBonus": "60,000 points after spending $1,000 in the first 3 months",
+    "Tier": "0",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Choice Privileges® Select Mastercard®",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%, 25.24%, or 29.99%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "10x on purchases at Choice Hotel properties",
+      "5x on gas, grocery, home improvement stores, and phone plans",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "30,000 points every account anniversary",
+      "$100 credit for Global Entry or TSA Precheck"
+    ],
+    "CashbackPoints": "Choice Privileges Points",
+    "SignupBonus": "90,000 points after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Wells Fargo",
+    "Name": "Signify Business Cash℠ Card by Wells Fargo",
+    "Category": "Business/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 12 months, then 18.49%-26.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$500 after spending $5,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Customized Cash Rewards Credit Card",
+    "Category": "Rotating",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for first 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back in one category (gas, EV charging, streaming services, dining, travel, drug stores)",
+      "2% back on grocery and wholesale clubs",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Unlimited Cash Rewards Credit Card",
+    "Category": "Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for first 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$200 after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "BankAmericard® Credit Card",
+    "Category": "N/A",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for first 18 months, then 16.24%-26.24%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Travel Rewards Credit Card",
+    "Category": "Travel/Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for first 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5x on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Preferred Rewards Points",
+    "SignupBonus": "25,000 points after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Premium Rewards® Credit Card",
+    "Category": "Travel/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "2x on travel and dining",
+      "1.5x on other purchases"
+    ],
+    "Credits": [
+      "$100 airline incidental credit",
+      "$100 credit for Global Entry or TSA Precheck"
+    ],
+    "CashbackPoints": "Preferred Rewards Points",
+    "SignupBonus": "60,000 points after spending $4,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Premium Rewards® Elite Credit Card",
+    "Category": "Travel/Catch All",
+    "CreditLevel": "Very Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$550",
+    "Rewards": [
+      "2x on travel and dining",
+      "1.5x on other purchases"
+    ],
+    "Credits": [
+      "$300 airline incidental credit",
+      "$150 credit towards video streaming services, food delivery, fitness subscriptions, and rideshare",
+      "$100 credit for Global Entry or TSA Precheck"
+    ],
+    "CashbackPoints": "Preferred Rewards Points",
+    "SignupBonus": "75,000 points after spending $5,000 in the first 3 months",
+    "Tier": "3",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Customized Cash Rewards Credit Card for Students",
+    "Category": "Student/Rotating",
+    "CreditLevel": "Fair-Good",
+    "APR": "0% for first 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back in one category (gas, EV charging, streaming services, dining, travel, drug stores)",
+      "2% back on grocery and wholesale clubs",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Unlimited Cash Rewards Credit Card for Students",
+    "Category": "Student/Catch All",
+    "CreditLevel": "Fair-Good",
+    "APR": "0% for first 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "BankAmericard® Credit Card for Students",
+    "Category": "Student/Rebuilding",
+    "CreditLevel": "Fair-Good",
+    "APR": "0% for first 18 months, then 16.24%-26.24%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Travel Rewards Credit Card for Students",
+    "Category": "Student/Travel/Catch All",
+    "CreditLevel": "Fair-Good",
+    "APR": "0% for first 15 months, then 19.24%-29.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "1.5x on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Preferred Rewards Points",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Customized Cash Rewards Secured Credit Card",
+    "Category": "Rebuilding/Rotating",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.24% variable",
+    "AnnualFee": "$0 ($200-$5,000 security deposit)",
+    "Rewards": [
+      "3% back in one category (gas, EV charging, streaming services, dining, travel, drug stores)",
+      "2% back on grocery and wholesale clubs",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Unlimited Cash Rewards Secured Credit Card",
+    "Category": "Rebuilding/Catch All",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.24% variable",
+    "AnnualFee": "$0 ($200-$5,000 security deposit)",
+    "Rewards": [
+      "1.5% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "BankAmericard® Secured Credit Card",
+    "Category": "Rebuilding",
+    "CreditLevel": "Poor-Fair",
+    "APR": "26.24% variable",
+    "AnnualFee": "$0 ($200-$5,000 security deposit)",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "40"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Bank of America® Travel Rewards Secured Credit Card",
+    "Category": "Rebuilding/Travel/Catch All",
+    "CreditLevel": "Poor-Fair",
+    "APR": "29.24% variable",
+    "AnnualFee": "$0 ($200-$5,000 security deposit)",
+    "Rewards": [
+      "1.5x on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Preferred Rewards Points",
+    "SignupBonus": "N/A",
+    "Tier": "0",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Alaska Airlines Visa Signature® Credit Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "3x on Alaska Airlines purchases",
+      "2x on gas, EV charging, cable, streaming services, and transit",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$99 companion fare after spending $6,000 in a year"
+    ],
+    "CashbackPoints": "Mileage Plan Points",
+    "SignupBonus": "50,000 points after spending $3,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Free Spirit® Travel More World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$0 for the first year, then $79",
+    "Rewards": [
+      "3x on Spirit purchases",
+      "2x on dining and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 companion fare after spending $5,000 in a year"
+    ],
+    "CashbackPoints": "Free Spirit Points",
+    "SignupBonus": "50,000 points and $100 companion flight voucher after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Allways Rewards Visa® Credit Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$59",
+    "Rewards": [
+      "3x on Allegiant purchases",
+      "2x on dining",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Allways Rewards Points",
+    "SignupBonus": "25,000 points after spending $1,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Bank of America",
+    "Name": "Air France KLM World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.24%",
+    "AnnualFee": "$89",
+    "Rewards": [
+      "3x on Air France, KLM, and SkyTeam airline purchases",
+      "1.5x on other purchases"
+    ],
+    "Credits": [
+      "5,000 points after spending $50 in a year"
+    ],
+    "CashbackPoints": "Flying Blue Points",
+    "SignupBonus": "50,000 points after spending $2,000 in the first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "PNC Bank",
+    "Name": "PNC Cash Unlimited® Visa Signature® Credit Card",
+    "Category": "Catch All/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 15 months, then 20.24%-30.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "2% back on all purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$250 after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "PNC Bank",
+    "Name": "PNC Cash Rewards® Visa® Credit Card",
+    "Category": "Gas/Dining/Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 15 months, then 20.24%-30.24%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "4% back on gas",
+      "3% back on dining",
+      "2% back on grocery",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "$250 after spending $1,000 in the first 3 months",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "PNC Bank",
+    "Name": "PNC Core® Visa® Credit Card",
+    "Category": "Balance Transfer",
+    "CreditLevel": "Good-Excellent",
+    "APR": "0% for 18 months, then 19.24%-30.24%",
+    "AnnualFee": "$0",
+    "Rewards": "N/A",
+    "Credits": "N/A",
+    "CashbackPoints": "N/A",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "45"
+  },
+  {
+    "Issuer": "Synchrony",
+    "Name": "PayPal Cashback Mastercard®",
+    "Category": "Catch All",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.24%, 31.99%, or 34.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back when paying with PayPal",
+      "1.5% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Synchrony",
+    "Name": "Venmo Visa® Credit Card",
+    "Category": "Rotating",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.49%, 29.49%, or 32.49%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3% back on one category",
+      "2% back on another category (e.g., transportation, travel, grocery, entertainment, dining, etc.)",
+      "1% back on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Cashback",
+    "SignupBonus": "N/A",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Wyndham Rewards Earner® Business Card",
+    "Category": "Business/Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$95",
+    "Rewards": [
+      "8x on Wyndham hotels and gas",
+      "5x on marketing, advertising, and utilities",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "15,000 bonus anniversary points"
+    ],
+    "CashbackPoints": "Wyndham Rewards Points",
+    "SignupBonus": "40,000 points after spending $4,000 in first months, and an additional 40,000 points after spending $15,000 in first year",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "JetBlue Business Card",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "6x on JetBlue purchases",
+      "2x on dining and office supply stores",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "5,000 bonus anniversary points",
+      "$100 credit after spending $100 or more on a JetBlue Vacations package"
+    ],
+    "CashbackPoints": "TrueBlue Points",
+    "SignupBonus": "50,000 points after spending $4,000 in first 3 months and an additional 10,000 points after a purchase on an employee card in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Wyndham Rewards Earner® Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "5x on Wyndham hotels and gas",
+      "2x on dining and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "7,500 bonus points each year after spending $15,000"
+    ],
+    "CashbackPoints": "Wyndham Rewards Points",
+    "SignupBonus": "45,000 points after spending $2,000 in first 6 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "JetBlue Plus Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "6x on JetBlue purchases",
+      "2x on dining and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "5,000 bonus anniversary points",
+      "$100 credit after spending $100 or more on a JetBlue Vacations package"
+    ],
+    "CashbackPoints": "TrueBlue Points",
+    "SignupBonus": "50,000 points after spending $1,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Wyndham Rewards Earner® Plus Card",
+    "Category": "Hotel",
+    "CreditLevel": "Good-Excellent",
+    "APR": "20.99%-29.99%",
+    "AnnualFee": "$75",
+    "Rewards": [
+      "6x on Wyndham hotels and gas",
+      "4x on dining and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "7,500 bonus anniversary points"
+    ],
+    "CashbackPoints": "Wyndham Rewards Points",
+    "SignupBonus": "75,000 points after spending $2,000 in first 6 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Hawaiian Airlines® World Elite Business Mastercard®",
+    "Category": "Business/Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "3x on Hawaiian Airline purchases",
+      "2x on gas, dining, and office supply stores",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "20,000 HawaiianMiles if you spend $50,000-$99,999 a year",
+      "50% off companion discount (one time)"
+    ],
+    "CashbackPoints": "HawaiianMiles",
+    "SignupBonus": "50,000 points after spending $4,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "AAdvantage® Aviator® Red World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "2x on American Airlines purchases",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$99 annual companion certificate after spending $20,000 a year",
+      "$25 inflight WiFi credit"
+    ],
+    "CashbackPoints": "AAdvantage Miles",
+    "SignupBonus": "60,000 points after making one purchase",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "JetBlue Card",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$0",
+    "Rewards": [
+      "3x on JetBlue purchases",
+      "2x on dining and grocery",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "TrueBlue Points",
+    "SignupBonus": "10,000 points after spending $1,000 in first 3 months",
+    "Tier": "1",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Hawaiian Airlines® World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "3x on Hawaiian Airline purchases",
+      "2x on gas, dining, and office supply stores",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 companion discount annually"
+    ],
+    "CashbackPoints": "HawaiianMiles",
+    "SignupBonus": "70,000 points after spending $2,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Emirates Skywards Rewards World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$99",
+    "Rewards": [
+      "3x on Emirates purchases",
+      "2x on travel",
+      "1x on other purchases"
+    ],
+    "Credits": "N/A",
+    "CashbackPoints": "Skywards Miles",
+    "SignupBonus": "30,000 points after spending $3,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Miles & More® World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$89",
+    "Rewards": [
+      "2x on Miles&More airline partners",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "Companion Ticket each anniversary"
+    ],
+    "CashbackPoints": "Miles & More Miles",
+    "SignupBonus": "80,000 points after spending $3,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "Emirates Skywards Premium World Elite Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "499",
+    "Rewards": [
+      "3x on Emirates purchases",
+      "2x on travel",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "10,000 bonus miles after spending $30,000 each year",
+      "$100 Global Entry/TSA Precheck credit"
+    ],
+    "CashbackPoints": "Skywards Miles",
+    "SignupBonus": "30,000 points after spending $3,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  },
+  {
+    "Issuer": "Barclays",
+    "Name": "FRONTIER Airlines World Mastercard®",
+    "Category": "Airline",
+    "CreditLevel": "Good-Excellent",
+    "APR": "21.24%-29.99%",
+    "AnnualFee": "$0 for first year, then $99",
+    "Rewards": [
+      "5x on Frontier airlines purchases",
+      "3x on dining",
+      "1x on other purchases"
+    ],
+    "Credits": [
+      "$100 flight voucher after spending $2,500 in a year"
+    ],  
+    "CashbackPoints": "Frontier Miles",
+    "SignupBonus": "50,000 points after spending $1,000 in first 3 months",
+    "Tier": "2",
+    "Score": "50"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
