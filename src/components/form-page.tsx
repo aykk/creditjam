@@ -315,7 +315,7 @@ export function FormPageComponent() {
               </RadioGroup>
             </div>
             <div>
-              <Label htmlFor="preferredAirline" className="text-blue-800 font-semibold">Which of these airlines do you prefer to fly with?</Label>
+              <Label htmlFor="preferredAirline" className="text-blue-800 font-semibold">If so, which of these airlines do you prefer to fly with?</Label>
               <Select name="preferredAirline" onValueChange={(value) => handleSelectChange("preferredAirline", value)}>
                 <SelectTrigger className="w-full mt-1 bg-white text-blue-900 border-blue-300">
                   <SelectValue placeholder="Select an airline" />

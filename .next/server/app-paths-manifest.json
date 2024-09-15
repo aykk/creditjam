@@ -1,3 +1,5 @@
 {
-  "/guide/page": "app/guide/page.js"
+  "/guide/page": "app/guide/page.js",
+  "/complete/page": "app/complete/page.js",
+  "/page": "app/page.js"
 }
