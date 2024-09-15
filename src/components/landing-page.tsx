@@ -49,7 +49,7 @@ export function LandingPageComponent() {
             <div className="space-x-6">
               <Link href="/form" passHref>
                 <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-2xl font-bold shadow-lg transform transition hover:scale-105 hover:rotate-3">
-                  Start Jamming! 🎵
+                  Start JAMming! 🎵
                   <Zap className="ml-2 inline-block" />
                 </Button>
               </Link>
