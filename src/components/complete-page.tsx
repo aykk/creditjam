@@ -120,7 +120,7 @@ export function CompletePageComponent() {
 
           <div className="mb-12">
             <h3 className="text-2xl font-semibold text-blue-700 mb-4">
-              Top Cards for {selectedCategories[currentCategoryIndex]}
+               Top Cards for {selectedCategories[currentCategoryIndex]}:
             </h3>
             <div className="flex items-center justify-between">
               <Button
@@ -135,29 +135,48 @@ export function CompletePageComponent() {
                   const cardIndex = currentCategoryIndex * 3 + index;
                   const card = recommendedCards[cardIndex] || null;
                   return (
-                    <Dialog key={index}>
-                      <DialogTrigger asChild>
-                        <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-                          <CardContent>
-                            <p className="text-lg font-semibold text-blue-600">
+                    <div key={index} className="flex flex-col items-center">
+                      <Dialog>
+                        <DialogTrigger asChild>
+                          <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+                            <CardContent>
+                              {/* You can add an image or icon here if desired */}
+                            </CardContent>
+                          </Card>
+                        </DialogTrigger>
+                        <DialogContent className="bg-white">
+                          <DialogHeader>
+                            <DialogTitle className="text-2xl font-bold text-blue-800">
                               {card && card.Name ? card.Name : "N/A"}
-                            </p>
-                          </CardContent>
-                        </Card>
-                      </DialogTrigger>
-                      <DialogContent className="bg-white">
-                        <DialogHeader>
-                          <DialogTitle className="text-2xl font-bold text-blue-800">
-                            {card && card.Name ? card.Name : "N/A"}
-                          </DialogTitle>
-                        </DialogHeader>
-                        <p className="text-blue-900">
-                          {card && card.Description
-                            ? card.Description
-                            : "No description available."}
-                        </p>
-                      </DialogContent>
-                    </Dialog>
+                            </DialogTitle>
+                          </DialogHeader>
+                          <div className="text-blue-900">
+                            {card
+                              ? Object.entries(card)
+                                  .filter(
+                                    ([key]) =>
+                                      key !== "Name" &&
+                                      key !== "Tier" &&
+                                      !key.toLowerCase().includes("score")
+                                  )
+                                  .map(([key, value]) => (
+                                    <p key={key}>
+                                      <strong>{key}:</strong> {String(value)}
+                                    </p>
+                                  ))
+                              : "No details available."}
+                          </div>
+                        </DialogContent>
+                      </Dialog>
+                      {/* Display the name below the Card with padding */}
+                      <p className="mt-4 text-lg font-semibold text-blue-600">
+                        {card && card.Name ? card.Name : "N/A"}
+                      </p>
+                      {/* Display "Tier X" below the Name */}
+                      <p className="text-md text-blue-500">
+                        {card && card.Tier ? `Tier ${card.Tier}` : " "}
+                      </p>
+                    </div>
                   );
                 })}
               </div>
@@ -173,7 +192,7 @@ export function CompletePageComponent() {
 
           <div>
             <h3 className="text-2xl font-semibold text-blue-700 mb-4">
-              Additional Recommended Cards
+              Additional Recommended Cards:
             </h3>
             <div className="flex justify-between space-x-4">
               {[
@@ -184,16 +203,11 @@ export function CompletePageComponent() {
                 const card = recommendedCards[index] || null;
                 return (
                   <div key={type} className="flex flex-col items-center">
-                    <h4 className="text-lg font-semibold text-blue-600 mb-2">
-                      {type}
-                    </h4>
                     <Dialog>
                       <DialogTrigger asChild>
                         <Card className="w-64 h-40 flex items-center justify-center cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                           <CardContent>
-                            <p className="text-lg font-semibold text-blue-600">
-                              {card && card.Name ? card.Name : "N/A"}
-                            </p>
+                            {/* You can add an image or icon here if desired */}
                           </CardContent>
                         </Card>
                       </DialogTrigger>
@@ -203,13 +217,32 @@ export function CompletePageComponent() {
                             {card && card.Name ? card.Name : "N/A"}
                           </DialogTitle>
                         </DialogHeader>
-                        <p className="text-blue-900">
-                          {card && card.Description
-                            ? card.Description
-                            : "No description available."}
-                        </p>
+                        <div className="text-blue-900">
+                          {card
+                            ? Object.entries(card)
+                                .filter(
+                                  ([key]) =>
+                                    key !== "Name" &&
+                                    key !== "Tier" &&
+                                    !key.toLowerCase().includes("score")
+                                )
+                                .map(([key, value]) => (
+                                  <p key={key}>
+                                    <strong>{key}:</strong> {String(value)}
+                                  </p>
+                                ))
+                            : "No details available."}
+                        </div>
                       </DialogContent>
                     </Dialog>
+                    {/* Display the name below the Card with padding */}
+                    <p className="mt-4 text-lg font-semibold text-blue-600">
+                      {card && card.Name ? card.Name : "N/A"}
+                    </p>
+                    {/* Display "Tier X" below the Name */}
+                    <p className="text-md text-blue-500">
+                      {card && card.Tier ? `Tier ${card.Tier}` : " "}
+                    </p>
                   </div>
                 );
               })}

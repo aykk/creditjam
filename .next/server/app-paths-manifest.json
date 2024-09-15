@@ -1,5 +1,4 @@
 {
   "/complete/page": "app/complete/page.js",
-  "/page": "app/page.js",
   "/form/page": "app/form/page.js"
 }

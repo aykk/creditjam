@@ -1220,7 +1220,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "United Quest℠ Card",
+    "Name": "United Quest Card",
     "Category": "Airline",
     "CreditLevel": "Very Good-Excellent",
     "APR": "21.99%-28.99%",
@@ -1245,7 +1245,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "United Gateway℠ Card",
+    "Name": "United Gateway Card",
     "Category": "Airline",
     "CreditLevel": "Good-Excellent",
     "APR": "0% intro for 12 months, then 21.99%-28.99%",
@@ -1266,7 +1266,7 @@
   },
   {
     "Issuer": "Chase",
-    "Name": "United Club℠ Infinite Card",
+    "Name": "United Club Infinite Card",
     "Category": "Airline",
     "CreditLevel": "Very Good-Excellent",
     "APR": "21.99%-28.99%",
@@ -2426,7 +2426,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Wells Fargo Autograph Journey℠ Card",
+    "Name": "Wells Fargo Autograph Journey Card",
     "Category": "Travel",
     "CreditLevel": "Good-Excellent",
     "APR": "21.24%, 26.24%, or 29.99%",
@@ -2445,7 +2445,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Wells Fargo Autograph℠ Card",
+    "Name": "Wells Fargo Autograph Card",
     "Category": "Travel/Dining/Gas/Transit",
     "CreditLevel": "Good-Excellent",
     "APR": "20.24%, 25.24%, or 29.99%",
@@ -2476,7 +2476,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Wells Fargo Attune℠ Card",
+    "Name": "Wells Fargo Attune Card",
     "Category": "Entertainment/Transit",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 12 months, then 20.24%, 25.24%, or 29.99%",
@@ -2595,7 +2595,7 @@
   },
   {
     "Issuer": "Wells Fargo",
-    "Name": "Signify Business Cash℠ Card by Wells Fargo",
+    "Name": "Signify Business Cash Card by Wells Fargo",
     "Category": "Business/Catch All",
     "CreditLevel": "Good-Excellent",
     "APR": "0% for 12 months, then 18.49%-26.49%",
