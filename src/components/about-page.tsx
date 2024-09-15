@@ -45,9 +45,9 @@ export function AboutPageComponent() {
             <div className="flex items-start space-x-4">
               <Users className="w-12 h-12 text-blue-500 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold text-blue-700 mb-2">Diversity, Equity, and Inclusion</h3>
+                <h3 className="text-2xl font-semibold text-blue-700 mb-2">Who are we?</h3>
                 <p className="text-blue-600">
-                  At creditJAM, we believe that financial knowledge and opportunities should be accessible to everyone, regardless of their background, ethnicity, or socioeconomic status. We're committed to breaking down barriers and providing inclusive, unbiased credit card recommendations and financial education to empower all individuals on their financial journey.
+                  We are a team of students who believe that financial knowledge and resources should be accessible to everyone, regardless of their background. Our idea is to provide both financial education and personalized credit card recommendations to ensure everyone can leverage credit to its fullest potential.
                 </p>
               </div>
             </div>
@@ -55,9 +55,9 @@ export function AboutPageComponent() {
             <div className="flex items-start space-x-4">
               <BookOpen className="w-12 h-12 text-blue-500 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-semibold text-blue-700 mb-2">Financial Literacy for All</h3>
+                <h3 className="text-2xl font-semibold text-blue-700 mb-2">Financial literacy for all!</h3>
                 <p className="text-blue-600">
-                  We're passionate about improving financial literacy across all communities. Our platform offers easy-to-understand resources, guides, and tools to help you make informed decisions about credit cards and personal finance. We believe that knowledge is power, and we're here to empower you with the information you need to take control of your financial future.
+                  We're passionate about improving financial literacy across all communities. Our platform offers an easy-to-understand guide, and a tool to help you make informed decisions about choosing the right credit cards. Our service is targeted towards those who have a low understanding of credit and how to utilize credit, and is able to make recommendations that help them maximize their rewards, while also building credit.
                 </p>
               </div>
             </div>
@@ -67,19 +67,16 @@ export function AboutPageComponent() {
               <div>
                 <h3 className="text-2xl font-semibold text-blue-700 mb-2">Leveraging Credit Cards Responsibly</h3>
                 <p className="text-blue-600">
-                  Our mission is to help you leverage credit cards as powerful financial tools rather than sources of debt. We provide personalized recommendations and strategies to maximize rewards, build credit, and achieve your financial goals. With the right knowledge and approach, credit cards can be a valuable asset in your financial toolkit.
+                  We believe credit cards have the potential to be very powerful financial tools, yet unfortunately credit card debt is one of the most common sources of debt in America. Our mission is to change that, and provide people with the knowledge and resources necessary to leverage credit cards into a valuable asset in their financial toolkit, regardless of their background.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-xl text-blue-700 mb-6">
-              Join us in our mission to democratize financial knowledge and empower individuals to make smart credit decisions.
-            </p>
             <Link href="/form" passHref>
               <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-xl font-bold shadow-lg transition-all duration-300 hover:shadow-xl">
-                Start Your Journey
+                Get Started Now!
               </Button>
             </Link>
           </div>

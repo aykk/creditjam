@@ -44,7 +44,7 @@ export function LandingPageComponent() {
               Find Your <span className="text-blue-500 bg-yellow-200 px-2 py-1 rounded-lg transform -rotate-2 inline-block">Perfect</span> Credit Card Match!
             </h2>
             <p className="text-2xl text-blue-700 mb-8">
-              Let creditJAM help you discover the ideal credit card for your lifestyle and needs. It's time to make your finances groove!
+              Let creditJAM help you discover the ideal credit card for your lifestyle. It's time to make your finances groove!
             </p>
             <div className="space-x-6">
               <Link href="/form" passHref>
@@ -75,17 +75,17 @@ export function LandingPageComponent() {
         <div className="grid grid-cols-3 gap-8 w-full mb-16">
           <div className="bg-white p-6 rounded-2xl shadow-lg border-4 border-dashed border-blue-300 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-blue-400">
             <h3 className="text-2xl font-bold text-blue-700 mb-2">Personalized Recommendations</h3>
-            <p className="text-blue-600 mb-4">Get tailored credit card suggestions based on your unique financial profile and spending habits.</p>
+            <p className="text-blue-600 mb-4">Get tailored credit card suggestions based on your unique financial background and spending habits.</p>
             <Sparkles className="w-12 h-12 text-blue-500 mt-auto" />
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border-4 border-dashed border-blue-300 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-blue-400">
             <h3 className="text-2xl font-bold text-blue-700 mb-2">Secure and Confidential</h3>
-            <p className="text-blue-600 mb-4">Your data is protected with bank-level security. We never share your information without your consent.</p>
+            <p className="text-blue-600 mb-4">Your data is anonymous and never saved! All of your information will be discarded once you use our service.</p>
             <Shield className="w-12 h-12 text-blue-500 mt-auto" />
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-lg border-4 border-dashed border-blue-300 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-blue-400">
             <h3 className="text-2xl font-bold text-blue-700 mb-2">Maximize Your Rewards</h3>
-            <p className="text-blue-600 mb-4">Discover cards that offer the best rewards for your spending patterns and lifestyle.</p>
+            <p className="text-blue-600 mb-4">Discover cards that offer the best return for your spending patterns and lifestyle.</p>
             <TrendingUp className="w-12 h-12 text-blue-500 mt-auto" />
           </div>
         </div>
