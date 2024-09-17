@@ -214,7 +214,7 @@ function finalCards(userInput) {
       returnCard.push(card3);
     }
   }
-
+// adding null index
   const cardM = sortByCategoryAndTier(recommendedCards, "Catch All", 1);
   if (cardM) returnCard.push(cardM);
 
